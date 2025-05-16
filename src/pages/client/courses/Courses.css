@@ -1,0 +1,66 @@
+/* Courses.css */
+
+/* Tổng thể container */
+.all-courses-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Noto Sans KR', sans-serif;
+}
+
+/* Tiêu đề chính */
+.all-courses-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.all-courses-container h1::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: #3b82f6;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/* Khoảng cách giữa các section khóa học */
+.courses-container {
+  margin-bottom: 4rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .all-courses-container {
+    padding: 1.5rem;
+  }
+
+  .all-courses-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .courses-container {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .all-courses-container {
+    padding: 1rem;
+  }
+
+  .all-courses-container h1 {
+    font-size: 2rem;
+  }
+
+  .courses-container {
+    margin-bottom: 2rem;
+  }
+}

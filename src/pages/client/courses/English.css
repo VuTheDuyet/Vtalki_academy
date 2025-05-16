@@ -1,0 +1,190 @@
+/* English.css */
+
+/* Tổng thể container */
+.courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Noto Sans KR', sans-serif;
+}
+
+/* Hình ảnh tiêu đề */
+.header-image {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.course-header-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.course-header-img:hover {
+  transform: scale(1.02);
+}
+
+/* Tiêu đề chính */
+.courses-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.courses-container h2::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background-color: #3b82f6;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/* Danh sách khóa học */
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Thẻ khóa học */
+.course-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.course-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.course-card p {
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+/* Phần hình thức học */
+.learning-formats {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.learning-formats h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.learning-formats ul {
+  list-style-type: disc;
+  padding-left: 0;
+  color: #4b5563;
+  display: inline-block;
+  text-align: left;
+}
+
+.learning-formats li {
+  margin-bottom: 0.5rem;
+}
+
+/* Nút đăng ký */
+.register-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.register-button:hover {
+  background-color: #2563eb;
+  transform: scale(1.02);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .courses-container {
+    padding: 1.5rem;
+  }
+
+  .courses-container h2 {
+    font-size: 2rem;
+  }
+
+  .courses-list {
+    grid-template-columns: 1fr;
+  }
+
+  .course-card {
+    padding: 1.25rem;
+  }
+
+  .header-image {
+    margin-bottom: 1.5rem;
+  }
+
+  .course-header-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .courses-container {
+    padding: 1rem;
+  }
+
+  .courses-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .course-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .course-card p {
+    font-size: 0.9rem;
+  }
+
+  .register-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}

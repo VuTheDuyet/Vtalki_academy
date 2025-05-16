@@ -1,0 +1,111 @@
+/* FloatingButtons.css */
+
+/* Tổng thể container */
+.floating-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999; /* Tăng z-index để đè lên tất cả (cao hơn main với z-index: 1000) */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Các icon chung */
+.floating-buttons img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.floating-buttons img:hover {
+  transform: scale(1.1);
+}
+
+/* Hiệu ứng rung cho icon hotline */
+.hotline-icon {
+  animation: ring 1.5s infinite ease-in-out;
+}
+
+/* Keyframes cho hiệu ứng rung */
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .floating-buttons {
+    right: 15px;
+    bottom: 15px;
+    gap: 10px;
+    /* Đảm bảo không bị ẩn */
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .floating-buttons img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-buttons {
+    right: 10px;
+    bottom: 10px;
+    gap: 8px;
+    /* Đảm bảo không bị ẩn */
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .floating-buttons img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* Đảm bảo không bị ẩn trên các thiết bị mobile nhỏ hơn */
+@media (max-width: 360px) {
+  .floating-buttons {
+    right: 8px;
+    bottom: 8px;
+    gap: 6px;
+  }
+
+  .floating-buttons img {
+    width: 32px;
+    height: 32px;
+  }
+}

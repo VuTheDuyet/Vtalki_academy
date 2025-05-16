@@ -1,0 +1,205 @@
+.teachers-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.teacher-detail {
+  flex: 1;
+  max-width: 600px;
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.teacher-avatar img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #3498db;
+}
+
+.teacher-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.teacher-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+  color: #2c3e50;
+}
+
+.teacher-personal-info p,
+.teacher-certificates li,
+.teacher-bio {
+  text-align: left;
+  font-size: 15px;
+  color: #444;
+  margin: 4px 0;
+}
+
+.teacher-certificates h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #2980b9;
+}
+
+.teacher-certificates ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.teacher-bio {
+  font-style: italic;
+  color: #666;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .teachers-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .teacher-detail {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .teacher-info {
+    align-items: center;
+  }
+
+  .teacher-info p,
+  .teacher-info li,
+  .teacher-name {
+    text-align: center;
+  }
+}
+
+  .teacher-list {
+    flex: 1;
+    max-width: 48%;
+  }
+  
+  .teacher-list h3 {
+    
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #34495e;
+  }
+  
+  .teacher-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .teacher-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    height: 190px; /* 👈 Gán chiều cao cố định tại đây */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .teacher-card:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .teacher-card.active {
+    border: 2px solid #3498db;
+  }
+  
+  .teacher-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .teacher-card h4 {
+    font-size: 15px;
+    margin: 6px 0 4px;
+  }
+  
+  .teacher-card p {
+    font-size: 13px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 3; số dòng hiển thị tối đa */
+    -webkit-box-orient: vertical;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .pagination button {
+    background: #3498db;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .pagination button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  @media (max-width: 768px) {
+    .teachers-wrapper {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+    }
+  
+    .teacher-list,
+    .teacher-detail {
+      max-width: 100%;
+    }
+  
+    .teacher-grid {
+      grid-template-columns: repeat(2, 1fr); /* ✅ 2 cột */
+      gap: 12px;
+    }
+  
+    .teacher-card {
+      height: 170px; /* Có thể điều chỉnh theo nội dung */
+    }
+  
+    .teacher-detail {
+      height: auto; /* Cho phép co giãn nếu nội dung dài */
+    }
+  }
+  

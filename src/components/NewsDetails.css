@@ -1,0 +1,161 @@
+/* NewsDetails.css */
+
+/* Container */
+.news-detail-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container horizontally */
+  box-sizing: border-box;
+}
+
+/* Headings */
+.news-detail-container h1,
+.news-detail-container h2,
+.news-detail-container h3 {
+  font-weight: bold;
+  color: #111827;
+  text-align: left; /* Ensure headings are left-aligned */
+}
+
+.news-detail-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.news-detail-container h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.news-detail-container h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.news-detail-container p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  text-align: left; /* Explicitly left-align paragraphs */
+}
+
+/* Lists */
+.news-detail-container ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: left; /* Explicitly left-align lists */
+}
+
+/* Images */
+.news-detail-container img {
+  max-width: 800px; /* Limit image width to 800px */
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block; /* Ensure block display for proper alignment */
+  margin: 0 auto; /* Center the image */
+}
+
+/* Images within prose */
+.news-detail-container .prose img {
+  max-width: 800px; /* Consistent with other images */
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+/* Blockquote */
+.news-detail-container blockquote {
+  background-color: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #1e40af;
+  text-align: left; /* Ensure blockquote is left-aligned */
+}
+
+/* Links */
+.news-detail-container a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.news-detail-container a:hover {
+  text-decoration: underline;
+}
+
+/* Center only specific elements (e.g., CTA button) */
+.news-detail-container .text-center {
+  text-align: center;
+}
+
+/* Tailwind-like utility classes */
+.news-detail-container .bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.news-detail-container .hover\:bg-blue-700:hover {
+  background-color: #1d4ed8;
+}
+
+.news-detail-container .text-white {
+  color: #ffffff;
+}
+
+.news-detail-container .font-semibold {
+  font-weight: 600;
+}
+
+.news-detail-container .rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.news-detail-container .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Prose */
+.news-detail-container .prose {
+  max-width: 100%;
+  text-align: left; /* Ensure prose content is left-aligned */
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .news-detail-container {
+    padding: 1rem;
+  }
+
+  .news-detail-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .news-detail-container h2 {
+    font-size: 1.25rem;
+  }
+
+  .news-detail-container h3 {
+    font-size: 1rem;
+  }
+
+  .news-detail-container img,
+  .news-detail-container .prose img {
+    max-width: 100%; /* Allow images to fill container on mobile */
+    margin: 0 auto; /* Keep centering on mobile */
+  }
+
+  .news-detail-container p,
+  .news-detail-container ul,
+  .news-detail-container .prose {
+    text-align: left; /* Reinforce left-alignment on mobile */
+  }
+}

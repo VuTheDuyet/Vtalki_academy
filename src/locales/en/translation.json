@@ -1,0 +1,591 @@
+{
+    "welcome": "Welcome to our website!",
+    "logout": "Logout",
+    "home": "Home",
+    "new": "News",
+    "courses": "Courses",
+    "contact": "contact",
+    "about": "About Us",
+    "login": "Login",
+    "vietnamese": "Vietnamese",
+    "korean": "Korean",
+    "english": "English",
+    "our_books": "Our Books",
+    "all_books": "All Books",
+    "featured_books": "Featured Books",
+    "vietnamese_books": "Vietnamese Language Books",
+    "korean_books": "Korean Language Books",
+    "english_books": "English Language Books",
+    "teacher_training": "Teacher Training",
+    "all_teachers": "All Teachers",
+    "vietnamese_teachers": "Vietnamese Teachers",
+    "korean_teachers": "Korean Teachers",
+    "english_teachers": "English Teachers",
+    "overview": "Overview",
+    "team": "Our Team",
+    "mission": "Our Mission",
+    "events": "Events",
+    "study_tips": "Study Tips",
+    "blog": "Blog",
+    "recruitment": "Careers",
+    "announcements": "Announcements",
+    "contact_form": "Contact Form",
+    "contact_info": "Center Information",
+    "contact_social": "Our Social Media",
+    "register": "Register",
+    "why_choose": {
+        "title": "Why should you choose Vtalki?",
+        "1": {
+            "title": "HIGHLY QUALIFIED INTERNATIONAL INSTRUCTORS",
+            "desc": "Learn with native and Vietnamese teachers holding international qualifications, rich experience, and a dedicated approach to help you master the language with confidence."
+        },
+        "2": {
+            "title": "CREATIVE AND EFFECTIVE TEACHING METHODS",
+            "desc": "Our approach combines vivid visuals, videos, and real-life scenarios, enabling you to quickly develop language reflexes and use them fluently in daily life."
+        },
+        "3": {
+            "title": "PROFESSIONAL AND MODERN LEARNING ENVIRONMENT",
+            "desc": "Study in a state-of-the-art space equipped with advanced technology, creating a comfortable and inspiring atmosphere for maximum focus on learning."
+        },
+        "4": {
+            "title": "HIGH-QUALITY CURRICULUM, COMPLETELY FREE",
+            "desc": "Receive tailored learning materials designed for international learners, easy to understand and effective, all provided at no cost."
+        },
+        "5": {
+            "title": "FLEXIBLE SCHEDULES FOR BUSY PROFESSIONALS",
+            "desc": "Easily choose morning, evening, or weekend classes to fit your work schedule or dynamic lifestyle, ensuring you never miss a learning opportunity."
+        },
+        "6": {
+            "title": "SMALL CLASSES, PERSONALIZED LEARNING",
+            "desc": "With limited class sizes, each session ensures dedicated guidance and ample practice time, helping you progress rapidly."
+        },
+        "7": {
+            "title": "FLEXIBLE COURSE PAUSING TO SUIT YOUR NEEDS",
+            "desc": "Pause your course at any time and resume when ready, perfect for business trips, travel, or personal schedule changes, ensuring an uninterrupted learning journey."
+        },
+        "8": {
+            "title": "CULTURAL WORKSHOPS WITH NATIVE SPEAKERS",
+            "desc": "Join unique workshops and cultural exchange events with native speakers, allowing you to practice natural communication, connect culturally, and confidently use the language in real life."
+        }
+    },
+    "Vtalki's courses": "Vtalki's courses",
+    "coursess": {
+        "title": "Vtalki's Courses",
+        "description": "The center offers a variety of courses with flexible learning formats: 1-on-1, group classes, online, or offline.",
+        "languages": "Vietnamese, Korean, and English",
+        "specialized_desc": "while also supporting specialized courses such as: ",
+        "specialized": "exam preparation, practical communication, and professional writing",
+        "suitable": "Suitable for both beginners and those with prior knowledge.",
+        "online_title": "1-on-1 Online Learning",
+        "online_desc": "Ideal for busy individuals, with dedicated guidance from teachers.",
+        "online_alt": "Online 1-on-1",
+        "offline_title": "Offline Learning at the Center",
+        "offline_desc": "Experience in-person learning with real-time interaction with teachers.",
+        "offline_alt": "Offline 1-on-1",
+        "group_title": "Group Learning Online or Offline at the Center",
+        "group_desc": "Cost-effective, learn with friends, discuss, and practice together.",
+        "group_alt": "Group Online or Offline",
+        "view_button": "VIEW NOW"
+    },
+    "teacher_team_heading": "VTalki's Teaching Team",
+    "free_trial_offer": "Free Trial / Special Offers",
+    "join_cta": "Join VTalki as a student today!",
+    "specialOffers": {
+        "title": "🎁 Special Offers",
+        "offers": [
+            {
+                "title": "Free Consultation & Trial Lesson!",
+                "description": "Sign up now at Vtalki to get a personalized learning plan from our experts and experience a free trial lesson – your chance to unlock your potential is here!"
+            },
+            {
+                "title": "Get Exclusive Course Materials Worth 500K!",
+                "description": "Only this month, enroll in any course to receive premium Korean course materials worth 500K – your key to mastering every challenge!"
+            },
+            {
+                "title": "Invite Friends, Get 20% Off – Learn Together!",
+                "description": "Bring your best friends to sign up and enjoy a 20% discount voucher for the whole group – learn and succeed together!"
+            }
+        ]
+    },
+    "teachers": {
+        "1": {
+            "name": "Pham Thi Hue",
+            "birthplace": "Ninh Binh City",
+            "certificates": [
+                "Bachelor's Degree in Pedagogy from Hanoi Pedagogical University I + Certificate in Pedagogical Training",
+                "Bachelor's Degree in Economics + Certificate in Computerized Accounting",
+                "Certificates in IT and English"
+            ],
+            "bio": "Since childhood, I excelled in literature and had a talent for literature, history, geography, and foreign languages. I particularly love Vietnamese and English. This passion has been realized through my current job: teaching Vietnamese to foreigners. I want foreigners to learn Vietnamese and appreciate Vietnamese culture. Teaching Vietnamese to foreigners is my way of spreading the love for the Vietnamese language and culture to the global community!"
+        },
+        "2": {
+            "name": "Tran Nha Tran",
+            "birthplace": "Ho Chi Minh City",
+            "certificates": [
+                "TOPIK 5",
+                "Certificate in Pedagogical Training 2023",
+                "Bachelor's Degree in English Language - Ho Chi Minh City University of Education"
+            ],
+            "bio": "I am Nha Tran, a Vietnamese teacher with over 4 years of experience teaching foreigners. I have taught students at various levels, from beginner to intermediate, specializing in Southern Vietnamese. With an approachable, friendly, and practical teaching method, I strive to help students confidently communicate and use Vietnamese in daily life. I hope to accompany you on your journey to learn Vietnamese!"
+        },
+        "3": {
+            "name": "Tran Thi Huyen Trang",
+            "birthplace": "Thai Binh",
+            "certificates": [
+                "Graduated from Korean Studies Department (University of Social Sciences and Humanities, HCMC)",
+                "TOPIK 6",
+                "Completed the Korean Language Teacher Training Course at King Sejong Institute in 2024"
+            ],
+            "bio": "I graduated from the Korean Studies Department at the University of Social Sciences and Humanities, HCMC, with TOPIK Level 6 and completed the Korean Language Teacher Training Course at King Sejong Institute in 2024. I have experience teaching Korean to Vietnamese and Vietnamese to Koreans. For me, teaching is not only an opportunity to apply my expertise but also a way to create real value—helping students achieve their language goals while gaining experience and personal growth."
+        }
+    },
+    "news_articles": "Learning News & Articles",
+    "news": {
+        "han-quoc-tang-nhu-cau-lao-dong": {
+            "title": "[UPDATE] South Korea Increases Demand for Korean-Speaking Workers – Great Opportunity for Vietnamese",
+            "description": "South Korea expands recruitment of workers in the service industry requiring basic Korean proficiency. Vtalki Korean Language Center offers intensive beginner courses tailored for labor export needs."
+        },
+        "nguoi-nuoc-ngoai-hoc-tieng-viet-tphcm": {
+            "title": "[HOT] Surge in Foreigners Learning Vietnamese in Ho Chi Minh City",
+            "description": "Vtalki Vietnamese Language Center reports a 40% increase in foreign students since the beginning of the year. We are expanding 1-on-1 conversational Vietnamese classes with flexible schedules and experienced teachers."
+        },
+        "nguoi-han-hoc-tieng-viet-kinh-doanh": {
+            "title": "[EDUCATION NEWS] Koreans Learning Vietnamese for Business in Vietnam",
+            "description": "Many Koreans are seeking Vietnamese language centers to support their business needs. Vtalki offers 1-on-1 commercial Vietnamese classes with practical curricula, including translation and workplace communication support."
+        },
+        "vtalki-ra-mat-app-hoc-tieng-han-viet": {
+            "title": "[NEW] Foreigners Flock to Learn Vietnamese to Explore Culture and Opportunities in Vietnam",
+            "description": "In recent years, Vietnam has become an attractive destination not only for tourists but also for foreigners wishing to live, work, and integrate into the local culture. The demand for Vietnamese language learning among foreigners is surging, especially in major cities like Ho Chi Minh City and Hanoi."
+        },
+        "hoc-tieng-han-cap-toc": {
+            "helmet": {
+                "title": "Learn Korean Fast to Transform Your Life in South Korea | Vtalki",
+                "description": "Learn Korean quickly at Vtalki to seize job opportunities in South Korea with salaries of 30–45 million VND/month. 1-on-1 courses, TOPIK preparation, and 20% tuition discount!",
+                "keywords": "learn Korean, fast Korean course, Vtalki Korean center, labor export to South Korea, TOPIK preparation, learn Korean in HCMC",
+                "og_title": "Learn Korean Fast to Transform Your Life in South Korea | Vtalki",
+                "og_description": "Vtalki’s 1-on-1 Korean courses help you pass TOPIK and prepare for work in South Korea. Register now for a 20% tuition discount!",
+                "og_image": "/assets/korean-opportunity.jpg",
+                "og_url": "https://vtalki.com/news/hoc-tieng-han-cap-toc"
+            },
+            "title": "[URGENT UPDATE] Don’t Know Korean? You’re Closing the Door to Wealth in South Korea!",
+            "published_date": "Published: 05/13/2025",
+            "content": {
+                "section1": {
+                    "title": "A Life-Changing Opportunity Within Reach—Will You Seize It?",
+                    "text1": "South Korea—a land of opportunity with <strong>salaries of 30–45 million VND/month</strong>—is open to Vietnamese workers in <strong>services, manufacturing, and construction</strong>. Thousands of attractive jobs await, but one small barrier could eliminate you: <strong>not knowing basic Korean (TOPIK I)</strong>.",
+                    "text2": "<strong>Don’t let your dream of a better life slip away due to a missing skill!</strong> Vtalki Korean Language Center offers <strong>fast-track 1-on-1 courses</strong> to help you <strong>master Korean</strong>, <strong>pass TOPIK</strong>, and <strong>board a plane to South Korea</strong> in just <strong>2–3 months</strong>."
+                },
+                "section2": {
+                    "title": "Why Is Korean the Golden Key to Your Future?",
+                    "subtitle1": "🛑 No Korean = Missing Out on Golden Opportunities",
+                    "text1": "Korean companies have <strong>strict requirements</strong>: Candidates must achieve <strong>TOPIK Level 1</strong> for basic communication and effective work. Without Korean, you’ll be eliminated from the <strong>application stage</strong>, no matter how skilled you are.",
+                    "text2": "<strong>The harsh reality</strong>: Hundreds of Vietnamese miss out on opportunities just because they haven’t learned Korean. Do you want to be one of them?",
+                    "subtitle2": "🔥 Vtalki – The Fast-Track Solution to “Learn and Pass”",
+                    "text3": "<strong>Vtalki Korean Language Center</strong> designs courses <strong>specifically for Vietnamese aiming for labor export</strong>:",
+                    "list1": [
+                        "<strong>1-on-1 lessons</strong>: Teachers correct pronunciation and provide close guidance, helping you progress 3x faster.",
+                        "<strong>Focused TOPIK preparation</strong>: Targeted curriculum with practice tests to ensure you pass TOPIK I.",
+                        "<strong>Maximum flexibility</strong>: <strong>Online</strong> or <strong>offline</strong> classes, ideal for busy people or those in provinces.",
+                        "<strong>Professional teachers</strong>: A team specialized in TOPIK training, supporting you from <strong>A to Z</strong>."
+                    ],
+                    "quote": "<strong>Real results</strong>: 95% of Vtalki students pass TOPIK I after just 2–3 months!",
+                    "subtitle3": "🎯 Looking for Something? Vtalki Has It All!",
+                    "text4": "Popular search terms among Vietnamese:",
+                    "list2": [
+                        "“Where to learn Korean for labor export reliably?”",
+                        "“Quality Korean language center in HCMC”",
+                        "“Fast-track 1-on-1 Korean courses”"
+                    ],
+                    "text5": "Thousands of students have chosen <strong>Vtalki</strong>—the <strong>#1 trusted Korean language center</strong> for Vietnamese aiming to transform their lives in South Korea."
+                },
+                "section3": {
+                    "title": "Korean – The Key to a New Life",
+                    "text1": "Learning Korean isn’t just about a language. It’s a <strong>golden ticket</strong> to a stable future, high income, and a better life in South Korea.",
+                    "text2": "<strong>Don’t hesitate!</strong> Every day you delay is a day you push yourself further from a life-changing opportunity.",
+                    "subtitle": "📣 EXCLUSIVE OFFER – This Month Only:",
+                    "list": [
+                        "<strong>20% tuition discount</strong> for fast-track courses.",
+                        "<strong>Free TOPIK study materials</strong> included.",
+                        "<strong>Free consultation</strong> with experts."
+                    ]
+                },
+                "footer": {
+                    "text1": "👉 <strong>Act today!</strong> Contact <strong>Vtalki Korean Language Center</strong> via <a href='tel:+84XXXXXXXXX' class='text-blue-600 hover:underline'>hotline</a> or <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> to book your lessons and start your journey to South Korea.",
+                    "text2": "Vtalki – Where your South Korean dream becomes reality!"
+                }
+            }
+        },
+        "hoc-tieng-viet-tang-manh": {
+            "helmet": {
+                "title": "Surge in Foreigners Learning Vietnamese in Ho Chi Minh City | Vtalki",
+                "description": "Vtalki Center reports a 40% increase in foreign students learning Vietnamese in HCMC. 1-on-1 conversational courses, flexible schedules, and experienced teachers help you integrate into Vietnamese culture!",
+                "keywords": "learn Vietnamese, Vietnamese for foreigners, Vtalki Vietnamese center, learn Vietnamese in HCMC, conversational Vietnamese, Vietnamese proficiency test preparation, Vietnamese culture",
+                "og_title": "Surge in Foreigners Learning Vietnamese in Ho Chi Minh City | Vtalki",
+                "og_description": "Vtalki’s 1-on-1 Vietnamese courses help foreigners communicate confidently and explore Vietnamese culture. Register now for free consultation!",
+                "og_image": "/assets/map.png",
+                "og_url": "https://vtalki.com/news/hoc-tieng-viet-tang-manh"
+            },
+            "title": "[HOT] Surge in Foreigners Learning Vietnamese in Ho Chi Minh City",
+            "published_date": "Published: 05/13/2025",
+            "content": {
+                "section1": {
+                    "title": "Booming Demand for Vietnamese Learning in HCMC",
+                    "text1": "Amid deepening global integration, Ho Chi Minh City is becoming an ideal destination for foreigners eager to explore Vietnamese culture and language. <strong>Vtalki Vietnamese Language Center</strong> reports a <strong>40% increase in international students</strong> since early 2025, with hundreds from the US, South Korea, Japan, and Europe enrolling in Vietnamese courses.",
+                    "text2": "As Vietnam’s largest economic and cultural hub, HCMC attracts tens of thousands of foreigners to live, work, and study. Statistics show that the 2023-2024 academic year recorded about <strong>22,000 international students</strong> at Vietnamese universities, with HCMC hosting the majority. Mastering Vietnamese helps them integrate into the community, communicate effectively, and seize career opportunities in fields like tourism, education, and international business."
+                },
+                "section2": {
+                    "title": "Vtalki: Effective Vietnamese Learning with 1-on-1 Classes",
+                    "text1": "To meet the growing demand, <strong>Vtalki</strong> has expanded its conversational Vietnamese courses in a <strong>1-on-1 model</strong>, offering personalized, flexible, and effective learning experiences. The classes are designed with standout features:",
+                    "list1": [
+                        "<strong>Flexible schedules</strong>: Students can choose lessons from 7:00 AM to 9:00 PM, any day of the week, fitting busy schedules.",
+                        "<strong>Experienced teachers</strong>: Instructors from top universities, fluent in languages like English, Korean, and Japanese, make learning accessible.",
+                        "<strong>Practical methods</strong>: Lessons focus on real-life communication, from ordering food at a restaurant to negotiating business deals, combined with cultural experiences like visiting Ben Thanh Market, learning to cook phở, or interacting with locals.",
+                        "<strong>Online and in-person learning</strong>: Options to study at the center, at home, or via platforms like Zoom and Google Meet, ensuring maximum convenience."
+                    ],
+                    "quote": "<strong>Real results</strong>: 90% of Vtalki students confidently communicate at a basic level after 2-3 months, with many achieving Level A Vietnamese proficiency certification!"
+                },
+                "section3": {
+                    "title": "Vietnamese: The Key to Culture and Opportunities",
+                    "text1": "Learning Vietnamese is more than just mastering a language—it’s a way for foreigners to gain a deeper understanding of Vietnam’s culture, history, and people. From savoring a bowl of fragrant phở to joining Tet festivities, Vietnamese is the bridge to fully experiencing the country’s beauty.",
+                    "text2": "In the workplace, Vietnamese offers a significant competitive edge. Many businesses in HCMC prioritize hiring candidates who speak Vietnamese, especially in sectors like tourism, education, and international business. “Learning Vietnamese has made it easier to work with colleagues and feel like part of the community,” says Giulio, an Italian student at Vtalki."
+                },
+                "section4": {
+                    "title": "Vtalki: Your Partner in Learning Vietnamese",
+                    "text1": "With a mission to bring Vietnamese closer to the global community, <strong>Vtalki</strong> offers diverse courses from <strong>beginner (A)</strong> to <strong>advanced (C)</strong> levels, along with specialized programs like:",
+                    "list1": [
+                        "<strong>Office Vietnamese</strong>: Equips professional communication skills for workplace settings.",
+                        "<strong>Travel Vietnamese</strong>: Empowers foreigners to confidently explore Vietnam.",
+                        "<strong>Vietnamese proficiency test preparation</strong>: Prepares for the national Vietnamese language proficiency exam."
+                    ],
+                    "text2": "Students completing the courses receive <strong>prestigious certificates</strong>, proving their language proficiency for work or study. Vtalki also leverages modern technology and organizes practical activities to optimize the learning experience."
+                },
+                "section5": {
+                    "title": "Exclusive Offer This Month",
+                    "text1": "Register today to enjoy Vtalki’s attractive offers:",
+                    "list1": [
+                        "<strong>Free learning path consultation</strong> with language experts.",
+                        "<strong>Exclusive Vietnamese study materials</strong>, including conversational vocabulary and basic grammar.",
+                        "<strong>10% tuition discount</strong> for students registering before May 31, 2025."
+                    ],
+                    "register": "Register Now to Explore Vietnamese!"
+                },
+                "footer": {
+                    "text1": "👉 <strong>Don’t miss out!</strong> Contact <strong>Vtalki Center</strong> via <a href='tel:+84963229475' class='text-blue-600 hover:underline'>hotline 096 322 94 75</a> or <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> to book your lessons and start your journey of integration in Vietnam.",
+                    "text2": "Vtalki – Your partner in mastering Vietnamese and embracing Vietnamese culture!"
+                }
+            }
+        },
+        "nguoi-han-hoc-tieng-viet-kinh-doanhh": {
+            "helmet": {
+                "title": "Koreans Learning Vietnamese for Business in Vietnam | Vtalki",
+                "description": "Koreans are learning Vietnamese to do business in Vietnam. Vtalki offers 1-on-1 commercial Vietnamese courses with practical curricula, translation support, and workplace communication training.",
+                "keywords": "learn Vietnamese, Vietnamese for Koreans, Vtalki Vietnamese center, commercial Vietnamese, learn Vietnamese in HCMC, business in Vietnam, workplace communication training",
+                "og_title": "Koreans Learning Vietnamese for Business in Vietnam | Vtalki",
+                "og_description": "Vtalki’s 1-on-1 commercial Vietnamese courses help Koreans communicate confidently and conquer the Vietnamese market. Register now for a 15% tuition discount!",
+                "og_image": "/assets/map.png",
+                "og_url": "https://vtalki.com/news/nguoi-han-hoc-tieng-viet-kinh-doanh"
+            },
+            "title": "[EDUCATION NEWS] Koreans Learning Vietnamese to Do Business in Vietnam",
+            "published_date": "Published: 05/13/2025",
+            "content": {
+                "section1": {
+                    "image_alt": "Map of Vietnam, a business destination for Koreans",
+                    "title": "Surging Demand for Vietnamese Learning Among Koreans",
+                    "text1": "With the robust growth of Vietnam-South Korea economic cooperation, Vietnam has become an attractive investment destination for Korean businesses. As of 2025, South Korea has over <strong>9,000 FDI projects</strong> in Vietnam, with total registered capital exceeding <strong>81 billion USD</strong>. Industries like manufacturing, technology, retail, and services are drawing thousands of Korean entrepreneurs and professionals to live and work, especially in HCMC and Hanoi.",
+                    "text2": "In this context, Vietnamese has become an essential tool for Koreans to communicate effectively with partners, clients, and local staff. <strong>Vtalki Vietnamese Language Center</strong> reports a significant increase in Korean students, with over <strong>70% of learners</strong> enrolling to support business goals, from contract negotiations to managing local teams.",
+                    "image_alt2": "Map of HCMC, a hub for business and Vietnamese learning"
+                },
+                "section2": {
+                    "title": "Vtalki: In-Depth 1-on-1 Commercial Vietnamese Courses",
+                    "text1": "To meet the specific needs of Koreans, <strong>Vtalki</strong> offers <strong>1-on-1 commercial Vietnamese courses</strong> tailored for business environments. The courses deliver standout benefits:",
+                    "list1": [
+                        "<strong>Practical curriculum</strong>: Focuses on business scenarios like negotiations, presentations, writing commercial emails, and client interactions.",
+                        "<strong>Translation support</strong>: Guidance on working with interpreters and using Vietnamese in bilingual Vietnam-Korea meetings.",
+                        "<strong>Specialized teachers</strong>: Instructors fluent in both Korean and Vietnamese, ensuring rapid progress.",
+                        "<strong>Maximum flexibility</strong>: Classes held in-person at the center, office, or online via Zoom or Google Meet, with schedules from 7:00 AM to 9:00 PM."
+                    ],
+                    "image_alt": "Map of Vietnam, where Koreans learn Vietnamese for business",
+                    "quote": "<strong>Real results</strong>: 95% of Korean students at Vtalki confidently use Vietnamese in work after 3-4 months of study!"
+                },
+                "section3": {
+                    "title": "Vietnamese: A Competitive Edge in Business",
+                    "text1": "Learning Vietnamese offers significant advantages for Koreans building business relationships in Vietnam. Using Vietnamese in communication helps:",
+                    "list1": [
+                        "<strong>Build trust</strong>: Direct communication in Vietnamese shows cultural respect and fosters lasting relationships.",
+                        "<strong>Understand the market</strong>: Gain insights into consumer needs, habits, and market trends in Vietnam.",
+                        "<strong>Manage effectively</strong>: Communicate directly with Vietnamese staff, minimizing misunderstandings due to language barriers."
+                    ],
+                    "text2": "Mr. Kim Min-soo, a Korean entrepreneur in HCMC, shares: “After Vtalki’s course, I can negotiate directly with suppliers and manage my team. Vietnamese has helped my company save costs and boost business efficiency.”",
+                    "image_alt": "Map of Vietnam, symbol of Vietnam-Korea cooperation"
+                },
+                "section4": {
+                    "title": "Vtalki: Top-Quality Training",
+                    "text1": "With over <strong>5 years of experience</strong> teaching Vietnamese to foreigners, Vtalki is the top choice for the Korean community in Vietnam. The center offers diverse courses, from basic communication to advanced commercial Vietnamese, with standout features:",
+                    "list1": [
+                        "<strong>Prestigious certificates</strong>: Students receive recognized Vietnamese proficiency certificates for work and academics.",
+                        "<strong>Practical activities</strong>: Participate in hands-on practice at companies, markets, or Vietnamese restaurants to apply Vietnamese.",
+                        "<strong>Personalized support</strong>: Customized learning plans to ensure rapid goal achievement."
+                    ]
+                },
+                "section5": {
+                    "title": "Exclusive Offer This Month",
+                    "text1": "Register now to enjoy Vtalki’s attractive offers:",
+                    "list1": [
+                        "<strong>Free learning path consultation</strong> with language experts.",
+                        "<strong>Exclusive commercial Vietnamese materials</strong>, including business vocabulary and sample phrases.",
+                        "<strong>15% tuition discount</strong> for students registering before May 31, 2025."
+                    ],
+                    "register": "Register Now to Conquer the Vietnamese Market!"
+                },
+                "footer": {
+                    "text1": "👉 <strong>Act today!</strong> Contact <strong>Vtalki Center</strong> via <a href='tel:+84963229475' class='text-blue-600 hover:underline'>hotline 096 322 94 75</a> or <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> to book your lessons and start your successful business journey in Vietnam.",
+                    "text2": "Vtalki – Your partner in mastering Vietnamese and conquering the Vietnamese market!"
+                }
+            }
+        },
+        "nguoi-nuoc-ngoai-hoc-tieng-viet": {
+            "helmet": {
+                "title": "Foreigners Learning Vietnamese to Explore Vietnamese Culture | Vtalki",
+                "description": "Foreigners are flocking to learn Vietnamese to integrate into the culture and seize opportunities in Vietnam. Vtalki offers 1-on-1 courses, flexible schedules, cultural experiences, and a 20% tuition discount!",
+                "keywords": "learn Vietnamese, Vietnamese for foreigners, Vtalki Vietnamese center, learn Vietnamese in HCMC, Vietnamese culture, conversational Vietnamese, career opportunities in Vietnam",
+                "og_title": "Foreigners Learning Vietnamese to Explore Vietnamese Culture | Vtalki",
+                "og_description": "Vtalki’s 1-on-1 Vietnamese courses help foreigners communicate confidently and discover Vietnamese culture. Register now for a 20% tuition discount!",
+                "og_image": "/assets/map.png",
+                "og_url": "https://vtalki.com/news/nguoi-nuoc-ngoai-hoc-tieng-viet"
+            },
+            "title": "[HOT] Foreigners Flock to Learn Vietnamese to Explore Culture and Opportunities in Vietnam",
+            "published_date": "Published: 05/13/2025",
+            "content": {
+                "section1": {
+                    "image_alt": "Map of Vietnam, a destination for foreigners learning Vietnamese",
+                    "title": "Why Are Foreigners Passionate About Learning Vietnamese?",
+                    "text1": "Vietnam, with its rapidly growing economy and rich culture, is becoming an ideal destination for foreigners. According to the Vietnam National Administration of Tourism, in 2024, the country welcomed over <strong>18 million international visitors</strong>, many of whom decided to stay long-term for work, business, or study. Vietnamese serves as a bridge to deeper understanding of the people, customs, and lifestyle of Vietnam.",
+                    "text2": "At <strong>Vtalki Vietnamese Language Center</strong>, international student enrollment surged by <strong>45% in 2025</strong>, with learners from the US, Australia, South Korea, Japan, and Europe. “I want to order phở without needing an English menu or chat with locals at the market. Vietnamese makes me feel like a local,” shares Emily, an American student in HCMC.",
+                    "image_alt2": "Map of HCMC, a hub for foreigners learning Vietnamese"
+                },
+                "section2": {
+                    "title": "Vtalki: Specialized 1-on-1 Vietnamese Courses",
+                    "text1": "To meet the growing demand, <strong>Vtalki</strong> offers specialized Vietnamese courses for foreigners, with a <strong>1-on-1 model</strong> delivering optimal results. The classes are flexible, suitable for all levels, and feature standout benefits:",
+                    "list1": [
+                        "<strong>Practical methods</strong>: Focus on daily communication, from hailing a ride to shopping or chatting with colleagues. Students practice through real-life scenarios like visiting markets or joining festivals.",
+                        "<strong>Multilingual teachers</strong>: Instructors fluent in English, Korean, and Japanese ensure easy comprehension.",
+                        "<strong>Cultural experiences</strong>: Activities like learning to cook phở, making bánh chưng, or visiting craft villages to understand Vietnamese culture.",
+                        "<strong>Maximum flexibility</strong>: Options to study in-person at the center, at home, or online via Zoom or Google Meet, with schedules from 7:00 AM to 9:00 PM."
+                    ],
+                    "image_alt": "Map of Vietnam, a symbol of culture and opportunity",
+                    "quote": "<strong>Real results</strong>: 92% of international students at Vtalki achieve basic conversational goals after 2-3 months of study!"
+                },
+                "section3": {
+                    "title": "Vietnamese: The Key to Integration and Success",
+                    "text1": "Learning Vietnamese offers practical benefits for foreigners in Vietnam:",
+                    "list1": [
+                        "<strong>Community integration</strong>: Communicating in Vietnamese builds close relationships with locals.",
+                        "<strong>Cultural exploration</strong>: Understanding Vietnamese enables participation in traditions like Tet, Vu Lan, or community events.",
+                        "<strong>Career opportunities</strong>: Knowing Vietnamese is an advantage in education, tourism, and international business."
+                    ],
+                    "text2": "Hiroshi, a Japanese student, shares: “Learning Vietnamese has helped me confidently communicate with partners and understand Vietnam’s work culture. I truly feel like I belong here.”",
+                    "image_alt": "Map of Vietnam, where foreigners integrate into the culture"
+                },
+                "section4": {
+                    "title": "Vtalki: Your Partner for Foreigners",
+                    "text1": "With over <strong>6 years of experience</strong> teaching Vietnamese, Vtalki is the top choice in HCMC and Hanoi. The center offers diverse courses, from basic to advanced, including:",
+                    "list1": [
+                        "<strong>Daily conversational Vietnamese</strong>: Focuses on basic vocabulary and grammar.",
+                        "<strong>Workplace Vietnamese</strong>: Professional communication skills, like writing emails or negotiating.",
+                        "<strong>Vietnamese proficiency test preparation</strong>: Prepares for the national Vietnamese language proficiency exam."
+                    ],
+                    "text2": "Students completing the courses receive <strong>prestigious certificates</strong>, proving their language proficiency for work or study."
+                },
+                "section5": {
+                    "title": "Exclusive Offer This Month",
+                    "text1": "Register now to enjoy Vtalki’s attractive offers:",
+                    "list1": [
+                        "<strong>Free learning path consultation</strong> with language experts.",
+                        "<strong>Exclusive Vietnamese study materials</strong>, including vocabulary and cultural guides.",
+                        "<strong>20% tuition discount</strong> for students registering before May 31, 2025."
+                    ],
+                    "register": "Register Now to Discover Vietnamese!"
+                },
+                "footer": {
+                    "text1": "👉 <strong>Act today!</strong> Contact <strong>Vtalki Center</strong> via <a href='tel:+84963229475' class='text-blue-600 hover:underline'>hotline 096 322 94 75</a> or <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> to book your lessons and start your integration journey in Vietnam.",
+                    "text2": "Vtalki – Your partner in exploring Vietnamese and Vietnamese culture!"
+                }
+            }
+        }
+    },
+    "consultForm": {
+        "title": "🎓 Register for Course Consultation",
+        "description": "Our consultation team will contact you within 24 hours",
+        "placeholders": {
+            "name": "👤 Full Name",
+            "phone": "📞 Phone Number",
+            "email": "📧 Email (optional)",
+            "note": "✍️ What do you need consultation on?"
+        },
+        "button": "Submit Registration Now",
+        "successMessage": "✅ Thank you! Vtalki will contact you for consultation as soon as possible."
+    },
+    "footer": {
+        "logoSection": {
+            "title": "VTalki Center",
+            "description": "VTalki English - Korean - Vietnamese Center",
+            "email": "Email",
+            "hotline": "Hotline"
+        },
+        "quickLinks": {
+            "title": "Quick Links",
+            "home": "Home",
+            "courses": "Courses",
+            "contact": "Contact",
+            "register": "Register"
+        },
+        "socialSection": {
+            "title": "Follow Us",
+            "facebook": "Facebook",
+            "youtube": "YouTube",
+            "tiktok": "TikTok",
+            "twitter": "Twitter",
+            "whatsapp": "WhatsApp",
+            "zalo": "Zalo",
+            "talk": "Talk",
+            "messenger": "Messenger",
+            "phone": "Phone"
+        },
+        "mapSection": {
+            "title": "Address"
+        },
+        "copyright": "© {{year}} VTalki. All rights reserved."
+    },
+    "coursesVietnamese": {
+        "title": "Vietnamese Language Courses",
+        "description": "This course helps you improve your {{skill}} skills effectively.",
+        "learningFormatsTitle": "Learning Formats:",
+        "learningFormats": [
+            "Offline 1:1",
+            "Online 1:1",
+            "Offline Group Class"
+        ],
+        "registerButton": "Register",
+        "courses": {
+            "communication": "Vietnamese for Communication",
+            "business": "Vietnamese for Business",
+            "kids": "Vietnamese for Kids",
+            "exam": "Vietnamese Exam Preparation"
+        }
+    },
+    "koreanCourse": {
+        "title": "Korean Language Courses",
+        "description": "This course teaches you {{skill}} with {{teacher}}.",
+        "learningFormatsTitle": "Learning Formats:",
+        "learningFormats": {
+            "group3_5": "Group Class 3-5 (Communication)",
+            "group10": "Group Class 10 (Beginner + Intermediate)"
+        },
+        "registerButton": "Register",
+        "courses": {
+            "communication": "Korean for Communication",
+            "beginner": "Elementary Korean",
+            "intermediate": "Intermediate Korean"
+        },
+        "teacher": {
+            "native": "native teacher",
+            "bilingual": "bilingual teacher"
+        }
+    },
+    "englishCourse": {
+        "title": "English Language Courses",
+        "description": "This course helps you improve your {{skill}} skills effectively.",
+        "learningFormatsTitle": "Learning Formats:",
+        "learningFormats": {
+            "online1_1": "Online 1:1",
+            "offline1_1": "Offline 1:1"
+        },
+        "registerButton": "Register",
+        "courses": {
+            "beginner": "English for Beginners",
+            "communication": "English for Communication",
+            "business": "English for Business",
+            "toeic": "TOEIC Preparation"
+        }
+    },
+    "allCourses": {
+        "title": "List of Courses"
+    },
+    "aboutUs": {
+        "title": "About VTalki – Vietnamese Language Center for Foreigners",
+        "seo": {
+            "title": "About VTalki - Vietnamese Language Center in Ho Chi Minh City",
+            "description": "Discover VTalki - a specialized center teaching Vietnamese to foreigners in Ho Chi Minh City with modern programs and dedicated teachers.",
+            "keywords": "VTalki, learn Vietnamese, Vietnamese center, foreigners, Ho Chi Minh City",
+            "ogTitle": "About VTalki - Learn Vietnamese for Foreigners",
+            "ogDescription": "VTalki offers professional Vietnamese courses, helping foreigners understand Vietnamese culture."
+        },
+        "introduction": {
+            "title": "Introduction",
+            "description": "VTalki is a specialized center for teaching Vietnamese to foreigners in Ho Chi Minh City, known for its structured training programs, modern learning methods, and dedicated teaching staff. With the motto 'Understand Vietnamese – Understand Vietnamese Culture,' VTalki not only helps learners master Vietnamese for communication and work but also accompanies them on a journey to explore Vietnam's culture, people, and customs."
+        },
+        "ourTeam": {
+            "title": "Quality Teaching Staff",
+            "item1": "Over 50 experienced teachers proficient in teaching Vietnamese to foreigners.",
+            "item2": "Applying learning methods through real-life communication, games, and cultural experiences.",
+            "item3": "Always dedicated to supporting learners throughout their learning journey."
+        },
+        "programs": {
+            "title": "Flexible Learning Programs",
+            "description": "Suitable for various learning goals: Daily conversational Vietnamese, Vietnamese for professionals and businessmen, academic Vietnamese, individual or group classes, in-person or online."
+        },
+        "internationalStudents": {
+            "title": "International Learners",
+            "item1": "Learners from Korea, China, the USA, Japan, France, etc.",
+            "item2": "Friendly, multicultural learning environment",
+            "item3": "Regularly organizes weekend workshops, exchange events, and out-of-class activities"
+        },
+        "contact": {
+            "title": "Contact Information",
+            "centerName": "Center Name: Vietnamese Language Academy – VTalki",
+            "address": "Address: 79 Le Van Thiem, Tan Phong Ward, District 7, Ho Chi Minh City",
+            "hotline": "Hotline: 0903 806 203",
+            "email": "Email: vtalki79@gmail.com",
+            "website": "Website: https://vtalki.com"
+        }
+    },
+    "contacts": {
+        "title": "Contact VTalki",
+        "seo": {
+            "title": "Contact VTalki - Vietnamese Language Center",
+            "description": "Contact VTalki for Vietnamese courses in Ho Chi Minh City. Address, hotline, email, and map.",
+            "keywords": "VTalki, contact, learn Vietnamese, Vietnamese center, Ho Chi Minh City",
+            "ogTitle": "Contact VTalki - Learn Vietnamese",
+            "ogDescription": "Contact VTalki at hotline 0903 806 203 or email vtalki79@gmail.com to register for courses."
+        },
+        "description": "Get in touch with VTalki for support with Vietnamese language courses for foreigners.",
+        "info": {
+            "title": "Contact Information",
+            "centerName": "Center Name: Vietnamese Language Academy – VTalki",
+            "address": "Address: 79 Le Van Thiem, Tan Phong Ward, District 7, Ho Chi Minh City",
+            "hotline": "Hotline: 0903 806 203",
+            "email": "Email: vtalki79@gmail.com",
+            "website": "Website: https://vtalki.com"
+        },
+        "map": {
+            "title": "Location on Map"
+        }
+    },
+    "form": {
+        "contact": {
+            "ariaLabel": "Contact form for VTalki",
+            "title": "Contact Us",
+            "fullName": "Full Name",
+            "fullNamePlaceholder": "Enter your full name",
+            "email": "Email",
+            "emailPlaceholder": "Enter your email",
+            "phone": "Phone Number",
+            "phonePlaceholder": "Enter your phone number",
+            "message": "Message",
+            "messagePlaceholder": "Enter your message",
+            "submit": "Submit",
+            "submitSuccess": "Contact submitted successfully! Thank you.",
+            "submitError": "An error occurred, please try again later."
+        }
+    }
+}

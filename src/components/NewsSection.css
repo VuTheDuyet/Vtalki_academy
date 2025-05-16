@@ -1,0 +1,96 @@
+.news-section {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.news-title {
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2c2c2c;
+}
+
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.news-item {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; /* Đảm bảo nội dung xếp theo cột */
+}
+
+.news-link:hover .news-item {
+  transform: translateY(-6px); /* Hiệu ứng nâng lên khi hover */
+  transition: transform 0.3s;
+}
+
+.news-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.news-item-title {
+  font-size: 18px;
+  margin: 12px;
+  color: #333;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Giới hạn 2 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Thêm dấu ... khi cắt */
+  line-height: 1.4;
+}
+
+.news-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0 12px 16px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Giới hạn 4 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1; /* Đảm bảo mô tả chiếm không gian còn lại */
+}
+
+/* CSS cho Link */
+.news-link {
+  text-decoration: none; /* Loại bỏ gạch chân */
+  color: inherit; /* Kế thừa màu từ phần tử cha */
+  display: block; /* Chiếm toàn bộ diện tích */
+  height: 100%; /* Bao phủ toàn bộ news-item */
+  cursor: pointer;
+}
+
+.news-link:hover {
+  text-decoration: none;
+}
+
+/* Hiệu ứng khi hover vào Link */
+.news-link:hover .news-item-title {
+  color: #007bff; /* Đổi màu tiêu đề */
+  transition: color 0.3s;
+}
+
+.news-link:hover .news-image {
+  opacity: 0.9; /* Làm mờ hình ảnh */
+  transition: opacity 0.3s;
+}
+
+/* Hỗ trợ focus cho accessibility */
+.news-link:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}

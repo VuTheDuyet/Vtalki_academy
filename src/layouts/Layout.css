@@ -1,0 +1,25 @@
+/* Flex layout toàn bộ trang */
+html, body {
+    height: 100%;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Main content chiếm hết phần giữa */
+  main {
+    flex: 1;
+    padding-top: 50px; /* phải >= chiều cao của header (hiện đang là 63px) */
+    padding-bottom: 100px; /* tạo khoảng trống cho footer */
+  }
+  
+  /* Footer không cần fixed */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px 20px;
+    font-size: 14px;
+  }

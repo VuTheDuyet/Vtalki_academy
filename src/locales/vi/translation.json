@@ -1,0 +1,595 @@
+{
+    "welcome": "Chào mừng bạn đến với trang web!",
+    "logout": "Đăng xuất",
+    "home": "Trang chủ",
+    "new": "Tin tức",
+    "courses": "Khóa học",
+    "contact": "Liên hệ",
+    "about": "Giới thiệu",
+    "login": "Đăng nhập",
+    "vietnamese": "Tiếng Việt",
+    "korean": "Tiếng Hàn",
+    "english": "Tiếng Anh",
+    "our_books": "Sách của chúng tôi",
+    "all_books": "Tất cả sách",
+    "featured_books": "Sách nổi bật",
+    "vietnamese_books": "Sách dạy tiếng Việt",
+    "korean_books": "Sách dạy tiếng Hàn",
+    "english_books": "Sách dạy tiếng Anh",
+    "teacher_training": "Đào tạo giáo viên",
+    "all_teachers": "Tất cả giáo viên",
+    "vietnamese_teachers": "Giáo viên dạy tiếng Việt",
+    "korean_teachers": "Giáo viên dạy tiếng Hàn",
+    "english_teachers": "Giáo viên dạy tiếng Anh",
+    "overview": "Tổng quan",
+    "team": "Đội ngũ",
+    "mission": "Sứ mệnh",
+    "events": "Sự kiện",
+    "study_tips": "Mẹo học",
+    "blog": "Blog",
+    "recruitment": "Tuyển dụng",
+    "announcements": "Thông báo",
+    "contact_form": "Form liên hệ",
+    "contact_info": "Thông tin trung tâm",
+    "contact_social": "Mạng xã hội của trung tâm",
+    "register": "Đăng ký",
+    "why_choose": {
+        "title": "Vì sao bạn nên chọn Vtalki?",
+        "1": {
+            "title": "GIẢNG VIÊN QUỐC TẾ TRÌNH ĐỘ CAO",
+            "desc": "Học với giáo viên bản xứ và người Việt có chứng chỉ quốc tế, kinh nghiệm phong phú và phương pháp giảng dạy tận tâm giúp bạn tự tin chinh phục ngôn ngữ."
+        },
+        "2": {
+            "title": "PHƯƠNG PHÁP GIẢNG DẠY SÁNG TẠO VÀ HIỆU QUẢ",
+            "desc": "Phương pháp kết hợp hình ảnh sinh động, video và tình huống thực tế giúp bạn phát triển phản xạ ngôn ngữ nhanh chóng và sử dụng thành thạo trong đời sống."
+        },
+        "3": {
+            "title": "MÔI TRƯỜNG HỌC TẬP CHUYÊN NGHIỆP, HIỆN ĐẠI",
+            "desc": "Học trong không gian hiện đại với trang thiết bị công nghệ cao, tạo cảm hứng và sự thoải mái tối đa để bạn tập trung học tốt nhất."
+        },
+        "4": {
+            "title": "GIÁO TRÌNH CHẤT LƯỢNG CAO, HOÀN TOÀN MIỄN PHÍ",
+            "desc": "Tài liệu học được thiết kế riêng cho học viên quốc tế, dễ hiểu, hiệu quả và được cung cấp hoàn toàn miễn phí."
+        },
+        "5": {
+            "title": "LỊCH HỌC LINH HOẠT CHO NGƯỜI BẬN RỘN",
+            "desc": "Dễ dàng chọn lớp học buổi sáng, tối hoặc cuối tuần phù hợp với lịch làm việc hay phong cách sống năng động của bạn."
+        },
+        "6": {
+            "title": "LỚP NHỎ, HỌC TẬP CÁ NHÂN HÓA",
+            "desc": "Sĩ số lớp giới hạn giúp mỗi buổi học có sự hướng dẫn tận tình và thời gian luyện tập đầy đủ, hỗ trợ bạn tiến bộ nhanh chóng."
+        },
+        "7": {
+            "title": "TẠM NGHỈ KHÓA HỌC LINH HOẠT THEO NHU CẦU",
+            "desc": "Bạn có thể tạm dừng khóa học bất cứ lúc nào và quay lại khi sẵn sàng, phù hợp với lịch trình công tác, du lịch hay cá nhân."
+        },
+        "8": {
+            "title": "WORKSHOP VĂN HÓA CÙNG NGƯỜI BẢN XỨ",
+            "desc": "Tham gia các buổi giao lưu và workshop độc đáo với người bản xứ để luyện giao tiếp tự nhiên, hiểu văn hóa và sử dụng ngôn ngữ tự tin hơn trong cuộc sống thực tế."
+        }
+    },
+    "Vtalki's courses": "Các khóa học của Vtalki",
+    "coursess": {
+        "title": "Các khóa học của Vtalki",
+        "description": "Trung tâm cung cấp các khoá học đa dạng với nhiều hình thức học linh hoạt: 1 kèm 1, học nhóm, học online hoặc offline.",
+        "languages": "Tiếng Việt, Tiếng Hàn và Tiếng Nhật",
+        "specialized_desc": "đồng thời hỗ trợ các khoá học chuyên sâu như: ",
+        "specialized": " ôn thi chứng chỉ, giao tiếp thực tế và luyện viết chuyên nghiệp",
+        "suitable": "Phù hợp cho người mới bắt đầu lẫn người đã có nền tảng.",
+        "online_title": "Học online kèm 1-1",
+        "online_desc": "Phù hợp cho người bận rộn, được giáo viên hướng dẫn tận tình.",
+        "online_alt": "Học online 1 kèm 1",
+        "offline_title": "Học offline tại trung tâm",
+        "offline_desc": "Trải nghiệm học trực tiếp, tương tác thực tế với giáo viên.",
+        "offline_alt": "Học offline 1 kèm 1",
+        "group_title": "Học nhóm online hoặc offline tại trung tâm",
+        "group_desc": "Tiết kiệm chi phí, học tập cùng bạn bè, thảo luận và thực hành.",
+        "group_alt": "Học nhóm online hoặc offline",
+        "view_button": "XEM NGAY"
+    },
+    "teacher_team_heading": "Đội ngũ giáo viên của VTalki",
+    "free_trial_offer": "Học thử miễn phí / Ưu đãi đặc biệt",
+    "join_cta": "Cùng trở thành học viên VTalki ngay hôm nay!",
+    "specialOffers": {
+        "title": "🎁 Ưu Đãi Đặc Biệt",
+        "offers": [
+            {
+                "title": "Tư Vấn & Học Thử Miễn Phí!",
+                "description": "Đăng ký ngay tại Vtalki để được chuyên gia thiết kế lộ trình học riêng biệt và trải nghiệm buổihọc thử đầy cảm hứng – cơ hội phát triển bản thân trong tầm tay!"
+            },
+            {
+                "title": "Tặng Giáo Trình Độc Quyền Trị Giá 500K!",
+                "description": "Chỉ trong tháng này, đăng ký khóa học để nhận ngay bộ giáo trình đỉnh cao từ Hàn Quốc trị giá 500K – bí quyết giúp bạn chinh phục mọi thử thách!"
+            },
+            {
+                "title": "Rủ Bạn Thân, Giảm Ngay 20% – Đôi Bạn Cùng Tiến!",
+                "description": "Kéo team bạn thân cùng đăng ký, nhận voucher giảm 20% cho cả hội – cùng học, cùng bứt phá với tinh thần đoàn kết!"
+            }
+        ]
+    },
+    "consultForm": {
+        "title": "🎓 Đăng ký nhận tư vấn khóa học",
+        "description": "Đội ngũ tư vấn sẽ liên hệ với bạn trong vòng 24h",
+        "placeholders": {
+            "name": "👤 Họ và tên",
+            "phone": "📞 Số điện thoại",
+            "email": "📧 Email (tuỳ chọn)",
+            "note": "✍️ Bạn cần tư vấn về gì?"
+        },
+        "button": "Gửi đăng ký ngay",
+        "successMessage": "✅ Cảm ơn bạn! Vtalki sẽ liên hệ tư vấn trong thời gian sớm nhất."
+    },
+    "teachers": {
+        "1": {
+            "name": "Phạm Thị Huệ",
+            "birthplace": "Thành phố Ninh Bình",
+            "certificates": [
+                "Bằng tốt nghiệp đại học sư phạm I Hà Nội + chứng chỉ đào tạo nghiệp vụ sư phạm",
+                "Bằng đại học kinh tế + chứng chỉ kế toán máy",
+                "Chứng chỉ tin học và ngoại ngữ Anh"
+            ],
+            "bio": "Từ bé tôi là một học sinh giỏi văn, tôi có năng khiếu về văn học, lịch sử, địa lý và ngoại ngữ. Đặc biệt là tôi yêu Tiếng Việt, tiếng Anh. Và điều này đã được hiện thực hóa bằng công việc hiện tại của tôi: một giáo viên dạy Tiếng Việt cho người nước ngoài. Tôi muốn người nước ngoài biết đến Tiếng Việt cũng như yêu thích Văn hóa Việt Nam. Dạy tiếng Việt cho người nước ngoài là cách tôi lan tỏa tình yêu tiếng Việt và văn hóa Việt Nam đến cộng đồng bạn bè thế giới!"
+        },
+        "2": {
+            "name": "Trần Nhã Trân",
+            "birthplace": "Thành Phố Hồ Chí Minh",
+            "certificates": [
+                "TOPIK 5",
+                "Chứng Chỉ Nghiệp Vụ Sư Phạm 2023",
+                "Cử nhân Đại học Sư Phạm TPHCM - Ngôn Ngữ Anh"
+            ],
+            "bio": "Tôi là Nhã Trân, giáo viên tiếng Việt với hơn 4 năm kinh nghiệm giảng dạy cho người nước ngoài. Tôi đã dạy nhiều học viên ở các trình độ khác nhau, từ sơ cấp đến trung cấp, và đặc biệt chuyên dạy tiếng Việt miền Nam. Với phương pháp giảng dạy dễ hiểu, thân thiện và thực tế, tôi luôn cố gắng giúp học viên tự tin giao tiếp và sử dụng tiếng Việt trong cuộc sống hàng ngày. Hy vọng sẽ có cơ hội đồng hành cùng bạn trong hành trình học tiếng Việt!"
+        },
+        "3": {
+            "name": "Trần Thị Huyền Trang",
+            "birthplace": "Thái Bình",
+            "certificates": [
+                "Tốt nghiệp Khoa Hàn Quốc Học (ĐH KHXHNV TPHCM)",
+                "TOPIK 6",
+                "Hoàn thành Khóa đào tạo giáo viên giảng dạy tiếng Hàn của Học viện King Sejong năm 2024"
+            ],
+            "bio": "Tôi tốt nghiệp Khoa Hàn Quốc học – Trường Đại học Khoa học Xã hội và Nhân văn TP.HCM, đạt TOPIK cấp 6 và đã hoàn thành Khóa đào tạo giáo viên giảng dạy tiếng Hàn của Học viện King Sejong năm 2024. Tôi có kinh nghiệm giảng dạy tiếng Hàn cho người Việt và tiếng Việt cho người Hàn. Đối với tôi, việc giảng dạy không chỉ là cơ hội để áp dụng kiến thức chuyên môn mà còn là cách tạo ra giá trị thực tế – giúp học viên đạt được mục tiêu ngôn ngữ, đồng thời tích lũy thêm kinh nghiệm và phát triển bản thân."
+        }
+    },
+    "news_articles": "Tin tức & bài viết học tập",
+    "news": {
+        "han-quoc-tang-nhu-cau-lao-dong": {
+            "title": "[CẬP NHẬT] Hàn Quốc tăng nhu cầu lao động biết tiếng Hàn – Cơ hội lớn cho người Việt",
+            "description": "Hàn Quốc mở rộng tiếp nhận lao động ngành dịch vụ yêu cầu trình độ tiếng Hàn cơ bản. Trung tâm dạy tiếng Hàn Vtalki triển khai khóa học sơ cấp cấp tốc, phù hợp với người có nhu cầu xuất khẩu lao động."
+        },
+        "nguoi-nuoc-ngoai-hoc-tieng-viet-tphcm": {
+            "title": "[HOT] Số lượng người nước ngoài học tiếng Việt tăng mạnh tại TP.HCM",
+            "description": "Trung tâm dạy tiếng Việt Vtalki ghi nhận lượt học viên nước ngoài tăng 40% từ đầu năm. Chúng tôi mở rộng lớp tiếng Việt giao tiếp 1 kèm 1, linh hoạt thời gian, giáo viên kinh nghiệm."
+        },
+        "nguoi-han-hoc-tieng-viet-kinh-doanh": {
+            "title": "[TIN TỨC GIÁO DỤC] Người Hàn Quốc tìm học tiếng Việt để kinh doanh tại Việt Nam",
+            "description": "Nhiều người Hàn tìm trung tâm học tiếng Việt để phục vụ nhu cầu kinh doanh. Vtalki khai giảng lớp tiếng Việt thương mại 1 kèm 1 với giáo trình thực tiễn, hỗ trợ phiên dịch, giao tiếp công việc."
+        },
+        "vtalki-ra-mat-app-hoc-tieng-han-viet": {
+            "title": "[MỚI] Người Nước Ngoài Đổ Xô Học Tiếng Việt Để Khám Phá Văn Hóa Và Cơ Hội Tại Việt Nam",
+            "description": "Trong những năm gần đây, Việt Nam đã trở thành điểm đến hấp dẫn không chỉ với du khách mà còn với những người nước ngoài muốn sinh sống, làm việc và hòa nhập vào văn hóa địa phương. Nhu cầu học tiếng Việt của người nước ngoài đang tăng mạnh, đặc biệt tại các thành phố lớn như TP.HCM và Hà Nội."
+        },
+        "hoc-tieng-han-cap-toc": {
+            "helmet": {
+                "title": "Học Tiếng Hàn Cấp Tốc Để Đổi Đời Tại Hàn Quốc | Vtalki",
+                "description": "Học tiếng Hàn cấp tốc tại Vtalki để nắm cơ hội làm việc tại Hàn Quốc với lương 30–45 triệu/tháng. Khóa học 1 kèm 1, luyện thi TOPIK, ưu đãi 20% học phí!",
+                "keywords": "học tiếng Hàn, khóa học tiếng Hàn cấp tốc, trung tâm tiếng Hàn Vtalki, xuất khẩu lao động Hàn Quốc, luyện thi TOPIK, học tiếng Hàn TPHCM",
+                "og_title": "Học Tiếng Hàn Cấp Tốc Để Đổi Đời Tại Hàn Quốc | Vtalki",
+                "og_description": "Khóa học tiếng Hàn 1 kèm 1 tại Vtalki giúp bạn đậu TOPIK, sẵn sàng làm việc tại Hàn Quốc. Đăng ký ngay để nhận ưu đãi 20% học phí!",
+                "og_image": "/assets/korean-opportunity.jpg",
+                "og_url": "https://vtalki.com/news/hoc-tieng-han-cap-toc"
+            },
+            "title": "[CẬP NHẬT KHẨN] Không Biết Tiếng Hàn – Bạn Đang Tự Đóng Cửa Cơ Hội Làm Giàu Tại Hàn Quốc!",
+            "published_date": "Ngày đăng: 13/05/2025",
+            "content": {
+                "section1": {
+                    "title": "Cơ Hội Đổi Đời Trong Tầm Tay, Nhưng Bạn Có Dám Nắm Lấy?",
+                    "text1": "Hàn Quốc – mảnh đất của cơ hội với <strong>mức lương 30–45 triệu/tháng</strong> đang rộng mở cho lao động Việt Nam trong các ngành <strong>dịch vụ, sản xuất, xây dựng</strong>. Hàng nghìn việc làm hấp dẫn chờ bạn, nhưng chỉ một rào cản nhỏ có thể khiến bạn bị loại ngay: <strong>không biết tiếng Hàn sơ cấp (TOPIK I)</strong>.",
+                    "text2": "<strong>Đừng để giấc mơ đổi đời vụt mất chỉ vì thiếu một kỹ năng!</strong> Trung tâm dạy tiếng Hàn <strong>Vtalki</strong> mang đến khóa học <strong>cấp tốc 1 kèm 1</strong>, giúp bạn <strong>nắm chắc tiếng Hàn</strong>, <strong>đậu TOPIK</strong>, và <strong>sẵn sàng lên máy bay sang Hàn Quốc</strong> chỉ sau <strong>2–3 tháng</strong>."
+                },
+                "section2": {
+                    "title": "Tại Sao Tiếng Hàn Là Chìa Khóa Vàng Cho Tương Lai Bạn?",
+                    "subtitle1": "🛑 Không Biết Tiếng Hàn = Tự Loại Mình Khỏi Cơ Hội Vàng",
+                    "text1": "Doanh nghiệp Hàn Quốc <strong>yêu cầu gắt gao</strong>: Ứng viên phải đạt <strong>TOPIK cấp 1</strong> để giao tiếp cơ bản và làm việc hiệu quả. Không có tiếng Hàn, bạn sẽ bị loại ngay từ <strong>vòng hồ sơ</strong>, dù có kỹ năng tốt đến đâu.",
+                    "text2": "<strong>Thực tế đau lòng</strong>: Hàng trăm người Việt bỏ lỡ cơ hội chỉ vì chưa học tiếng Hàn. Bạn có muốn là một trong số họ?",
+                    "subtitle2": "🔥 Vtalki – Giải Pháp Cấp Tốc Giúp Bạn “Học Là Đậu”",
+                    "text3": "<strong>Trung tâm tiếng Hàn Vtalki</strong> thiết kế khóa học <strong>đặc biệt cho người Việt muốn xuất khẩu lao động</strong>:",
+                    "list1": [
+                        "<strong>Học 1 kèm 1</strong>: Giáo viên sửa phát âm, hướng dẫn sát sao, giúp bạn tiến bộ nhanh gấp 3 lần.",
+                        "<strong>Tập trung thi TOPIK</strong>: Lộ trình học đúng trọng tâm, luyện đề chuẩn, đảm bảo đậu TOPIK I.",
+                        "<strong>Linh hoạt tối đa</strong>: Lớp <strong>online</strong> hoặc <strong>offline</strong>, phù hợp cho người bận rộn hoặc ở tỉnh.",
+                        "<strong>Giáo viên chuyên nghiệp</strong>: Đội ngũ chuyên luyện thi TOPIK, hỗ trợ bạn từ <strong>A đến Z</strong>."
+                    ],
+                    "quote": "<strong>Kết quả thực tế</strong>: 95% học viên Vtalki đậu TOPIK I chỉ sau 2–3 tháng học!",
+                    "subtitle3": "🎯 Bạn Đang Tìm Gì? Vtalki Có Tất Cả!",
+                    "text4": "Những từ khóa “hot” mà người Việt tìm kiếm:",
+                    "list2": [
+                        "“Học tiếng Hàn để đi xuất khẩu lao động ở đâu uy tín?”",
+                        "“Trung tâm tiếng Hàn chất lượng tại TPHCM”",
+                        "“Khóa học tiếng Hàn cấp tốc 1 kèm 1”"
+                    ],
+                    "text5": "Hàng nghìn học viên đã chọn <strong>Vtalki</strong> – trung tâm tiếng Hàn <strong>đáng tin cậy số 1</strong> cho người Việt muốn đổi đời tại Hàn Quốc."
+                },
+                "section3": {
+                    "title": "Tiếng Hàn – Chìa Khóa Mở Ra Cuộc Sống Mới",
+                    "text1": "Học tiếng Hàn không chỉ là học một ngôn ngữ. Nó là <strong>vé vàng</strong> đưa bạn đến một tương lai ổn định, thu nhập cao, và cuộc sống tốt hơn tại Hàn Quốc.",
+                    "text2": "<strong>Đừng chần chừ!</strong> Mỗi ngày trì hoãn là một ngày bạn tự đẩy mình xa cơ hội đổi đời.",
+                    "subtitle": "📣 Ưu Đãi CỰC HẤP DẪN – Chỉ Trong Tháng Này:",
+                    "list": [
+                        "<strong>Giảm ngay 20% học phí</strong> khóa học cấp tốc.",
+                        "<strong>Tặng miễn phí bộ tài liệu ôn thi TOPIK</strong> chính quy.",
+                        "<strong>Tư vấn lộ trình học miễn phí</strong> với chuyên gia."
+                    ]
+                },
+                "footer": {
+                    "text1": "👉 <strong>Hành động ngay hôm nay!</strong> Liên hệ <strong>Trung tâm dạy tiếng Hàn Vtalki</strong> qua <a href='tel:+84XXXXXXXXX' class='text-blue-600 hover:underline'>hotline</a> hoặc <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> để đặt lịch học và bắt đầu hành trình sang Hàn Quốc.",
+                    "text2": "Vtalki – Nơi biến giấc mơ Hàn Quốc của bạn thành hiện thực!"
+                }
+            }
+        },
+        "hoc-tieng-viet-tang-manh": {
+            "helmet": {
+                "title": "Số Lượng Người Nước Ngoài Học Tiếng Việt Tăng Mạnh Tại TP.HCM | Vtalki",
+                "description": "Trung tâm Vtalki ghi nhận lượng học viên nước ngoài học tiếng Việt tăng 40% tại TP.HCM. Khóa học giao tiếp 1 kèm 1, linh hoạt, giáo viên giàu kinh nghiệm, giúp bạn hòa nhập văn hóa Việt Nam!",
+                "keywords": "học tiếng Việt, tiếng Việt cho người nước ngoài, trung tâm tiếng Việt Vtalki, học tiếng Việt TP.HCM, tiếng Việt giao tiếp, luyện thi chứng chỉ tiếng Việt, văn hóa Việt Nam",
+                "og_title": "Số Lượng Người Nước Ngoài Học Tiếng Việt Tăng Mạnh Tại TP.HCM | Vtalki",
+                "og_description": "Khóa học tiếng Việt 1 kèm 1 tại Vtalki giúp người nước ngoài giao tiếp tự tin, khám phá văn hóa Việt Nam. Đăng ký ngay để nhận tư vấn miễn phí!",
+                "og_image": "/assets/map.png",
+                "og_url": "https://vtalki.com/news/hoc-tieng-viet-tang-manh"
+            },
+            "title": "[HOT] Số Lượng Người Nước Ngoài Học Tiếng Việt Tăng Mạnh Tại TP.HCM",
+            "published_date": "Ngày đăng: 13/05/2025",
+            "content": {
+                "section1": {
+                    "image_alt": "Bản đồ TP.HCM, nơi người nước ngoài học tiếng Việt",
+                    "title": "Nhu Cầu Học Tiếng Việt Bùng Nổ Tại TP.HCM",
+                    "text1": "Trong bối cảnh hội nhập quốc tế ngày càng sâu rộng, TP.HCM đang trở thành điểm đến lý tưởng cho người nước ngoài muốn khám phá văn hóa và ngôn ngữ Việt Nam. <strong>Trung tâm dạy tiếng Việt Vtalki</strong> ghi nhận lượng học viên quốc tế tăng <strong>40% từ đầu năm 2025</strong>, với hàng trăm người từ Mỹ, Hàn Quốc, Nhật Bản, và châu Âu đăng ký các khóa học tiếng Việt.",
+                    "text2": "Là trung tâm kinh tế và văn hóa lớn nhất Việt Nam, TP.HCM thu hút hàng chục nghìn người nước ngoài đến sinh sống, làm việc, và học tập. Theo thống kê, năm học 2023-2024 ghi nhận khoảng <strong>22.000 du học sinh quốc tế</strong> tại các trường đại học Việt Nam, trong đó TP.HCM chiếm phần lớn. Việc thành thạo tiếng Việt giúp họ hòa nhập cộng đồng, giao tiếp hiệu quả, và nắm bắt cơ hội nghề nghiệp trong các lĩnh vực như du lịch, giáo dục, và kinh doanh quốc tế.",
+                    "image_alt2": "Bản đồ TP.HCM, trung tâm học tiếng Việt cho người nước ngoài"
+                },
+                "section2": {
+                    "title": "Vtalki: Giải Pháp Học Tiếng Việt Hiệu Quả Với Lớp 1 Kèm 1",
+                    "text1": "Để đáp ứng nhu cầu ngày càng cao, <strong>Vtalki</strong> đã mở rộng các khóa học tiếng Việt giao tiếp theo mô hình <strong>1 kèm 1</strong>, mang đến trải nghiệm học tập cá nhân hóa, linh hoạt và hiệu quả. Các lớp học được thiết kế với các đặc điểm nổi bật:",
+                    "list1": [
+                        "<strong>Linh hoạt thời gian</strong>: Học viên có thể chọn lịch học từ 7:00 đến 21:00 tất cả các ngày trong tuần, phù hợp với lịch trình bận rộn.",
+                        "<strong>Giáo viên giàu kinh nghiệm</strong>: Đội ngũ giảng viên từ các trường đại học uy tín, thông thạo các ngôn ngữ như Anh, Hàn, Nhật, giúp học viên dễ dàng tiếp thu.",
+                        "<strong>Phương pháp thực tiễn</strong>: Bài học tập trung vào giao tiếp thực tế, từ đặt món ăn tại quán đến đàm phán công việc, kết hợp trải nghiệm văn hóa như tham quan chợ Bến Thành, học nấu phở, hoặc giao lưu với người bản địa.",
+                        "<strong>Học trực tuyến và trực tiếp</strong>: Lựa chọn học tại trung tâm, tại nhà, hoặc qua các nền tảng như Zoom, Google Meet, đảm bảo sự tiện lợi tối đa."
+                    ],
+                    "image_alt": "Bản đồ TP.HCM, nơi diễn ra các lớp học tiếng Việt Vtalki",
+                    "quote": "<strong>Kết quả thực tế</strong>: 90% học viên Vtalki tự tin giao tiếp cơ bản chỉ sau 2-3 tháng học, nhiều người đạt chứng chỉ tiếng Việt trình độ A!"
+                },
+                "section3": {
+                    "title": "Tiếng Việt: Chìa Khóa Mở Ra Văn Hóa Và Cơ Hội",
+                    "text1": "Học tiếng Việt không chỉ là học một ngôn ngữ, mà còn là cách để người nước ngoài hiểu sâu hơn về văn hóa, lịch sử, và con người Việt Nam. Từ việc thưởng thức một tô phở thơm lừng đến tham gia lễ hội Tết, tiếng Việt là cầu nối giúp họ trải nghiệm trọn vẹn vẻ đẹp của đất nước.",
+                    "text2": "Trong môi trường làm việc, tiếng Việt mang lại lợi thế cạnh tranh lớn. Nhiều doanh nghiệp tại TP.HCM ưu tiên tuyển dụng ứng viên biết tiếng Việt, đặc biệt trong các ngành như du lịch, giáo dục, và kinh doanh quốc tế. “Học tiếng Việt giúp tôi dễ dàng làm việc với đồng nghiệp và cảm thấy như một phần của cộng đồng,” anh Giulio, một học viên người Ý tại Vtalki, chia sẻ.",
+                    "image_alt": "Bản đồ TP.HCM, biểu tượng của sự hội nhập văn hóa"
+                },
+                "section4": {
+                    "title": "Vtalki: Đồng Hành Cùng Hành Trình Học Tiếng Việt",
+                    "text1": "Với sứ mệnh đưa tiếng Việt đến gần hơn với cộng đồng quốc tế, <strong>Vtalki</strong> cung cấp các khóa học đa dạng từ trình độ <strong>sơ cấp (A)</strong> đến <strong>nâng cao (C)</strong>, cùng các khóa chuyên sâu như:",
+                    "list1": [
+                        "<strong>Tiếng Việt văn phòng</strong>: Trang bị kỹ năng giao tiếp chuyên nghiệp cho môi trường công sở.",
+                        "<strong>Tiếng Việt du lịch</strong>: Hỗ trợ người nước ngoài tự tin khám phá Việt Nam.",
+                        "<strong>Luyện thi chứng chỉ tiếng Việt</strong>: Chuẩn bị cho kỳ thi năng lực tiếng Việt quốc gia."
+                    ],
+                    "text2": "Học viên hoàn thành khóa học sẽ nhận được <strong>chứng chỉ uy tín</strong>, giúp họ chứng minh năng lực ngôn ngữ trong công việc hoặc học tập. Vtalki cũng sử dụng công nghệ hiện đại và tổ chức các hoạt động thực tế để tối ưu hóa trải nghiệm học tập."
+                },
+                "section5": {
+                    "title": "Ưu Đãi Đặc Biệt Trong Tháng Này",
+                    "text1": "Đăng ký ngay hôm nay để nhận các ưu đãi hấp dẫn từ Vtalki:",
+                    "list1": [
+                        "<strong>Tư vấn lộ trình học miễn phí</strong> với chuyên gia ngôn ngữ.",
+                        "<strong>Tặng bộ tài liệu học tiếng Việt</strong> độc quyền, bao gồm từ vựng giao tiếp và ngữ pháp cơ bản.",
+                        "<strong>Giảm 10% học phí</strong> cho học viên đăng ký trước ngày 31/05/2025."
+                    ],
+                    "register": "Đăng Ký Ngay Để Khám Phá Tiếng Việt!"
+                },
+                "footer": {
+                    "text1": "👉 <strong>Đừng bỏ lỡ cơ hội!</strong> Liên hệ <strong>Trung tâm Vtalki</strong> qua <a href='tel:+84963229475' class='text-blue-600 hover:underline'>hotline 096 322 94 75</a> hoặc <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> để đặt lịch học và bắt đầu hành trình hòa nhập tại Việt Nam.",
+                    "text2": "Vtalki – Đồng hành cùng bạn chinh phục tiếng Việt và văn hóa Việt Nam!"
+                }
+            }
+        },
+        "nguoi-han-hoc-tieng-viet-kinh-doanhh": {
+            "helmet": {
+                "title": "Người Hàn Quốc Học Tiếng Việt Để Kinh Doanh Tại Việt Nam | Vtalki",
+                "description": "Người Hàn Quốc tìm học tiếng Việt để kinh doanh tại Việt Nam. Vtalki khai giảng lớp tiếng Việt thương mại 1 kèm 1, giáo trình thực tiễn, hỗ trợ phiên dịch và giao tiếp công việc.",
+                "keywords": "học tiếng Việt, tiếng Việt cho người Hàn Quốc, trung tâm tiếng Việt Vtalki, tiếng Việt thương mại, học tiếng Việt TP.HCM, kinh doanh tại Việt Nam, luyện giao tiếp công việc",
+                "og_title": "Người Hàn Quốc Học Tiếng Việt Để Kinh Doanh Tại Việt Nam | Vtalki",
+                "og_description": "Khóa học tiếng Việt thương mại 1 kèm 1 tại Vtalki giúp người Hàn Quốc giao tiếp tự tin, chinh phục thị trường Việt Nam. Đăng ký ngay để nhận ưu đãi 15% học phí!",
+                "og_image": "/assets/map.png",
+                "og_url": "https://vtalki.com/news/nguoi-han-hoc-tieng-viet-kinh-doanh"
+            },
+            "title": "[TIN TỨC GIÁO DỤC] Người Hàn Quốc Tìm Học Tiếng Việt Để Kinh Doanh Tại Việt Nam",
+            "published_date": "Ngày đăng: 13/05/2025",
+            "content": {
+                "section1": {
+                    "image_alt": "Bản đồ Việt Nam, điểm đến kinh doanh của người Hàn Quốc",
+                    "title": "Nhu Cầu Học Tiếng Việt Của Người Hàn Quốc Tăng Vọt",
+                    "text1": "Với sự phát triển mạnh mẽ của hợp tác kinh tế Việt - Hàn, Việt Nam đã trở thành điểm đến đầu tư hấp dẫn cho các doanh nghiệp Hàn Quốc. Tính đến năm 2025, Hàn Quốc có hơn <strong>9.000 dự án FDI</strong> tại Việt Nam, với tổng vốn đăng ký vượt <strong>81 tỷ USD</strong>. Các ngành như sản xuất, công nghệ, bán lẻ, và dịch vụ đang thu hút hàng nghìn doanh nhân và chuyên gia Hàn Quốc đến sinh sống và làm việc, đặc biệt tại TP.HCM và Hà Nội.",
+                    "text2": "Trong bối cảnh này, tiếng Việt trở thành công cụ thiết yếu giúp người Hàn giao tiếp hiệu quả với đối tác, khách hàng, và nhân viên địa phương. <strong>Trung tâm dạy tiếng Việt Vtalki</strong> ghi nhận số lượng học viên Hàn Quốc tăng đáng kể, với hơn <strong>70% học viên</strong> đăng ký học để phục vụ mục đích kinh doanh, từ đàm phán hợp đồng đến quản lý đội ngũ nhân sự.",
+                    "image_alt2": "Bản đồ TP.HCM, trung tâm kinh doanh và học tiếng Việt"
+                },
+                "section2": {
+                    "title": "Vtalki: Khóa Học Tiếng Việt Thương Mại 1 Kèm 1 Chuyên Sâu",
+                    "text1": "Để đáp ứng nhu cầu đặc thù của người Hàn Quốc, <strong>Vtalki</strong> khai giảng các lớp <strong>tiếng Việt thương mại 1 kèm 1</strong>, được thiết kế riêng cho môi trường kinh doanh. Các khóa học mang đến những lợi ích nổi bật:",
+                    "list1": [
+                        "<strong>Giáo trình thực tiễn</strong>: Tập trung vào các tình huống kinh doanh như đàm phán, thuyết trình, viết email thương mại, và giao tiếp với khách hàng.",
+                        "<strong>Hỗ trợ phiên dịch</strong>: Hướng dẫn cách làm việc với phiên dịch viên và sử dụng tiếng Việt trong các cuộc họp song ngữ Việt - Hàn.",
+                        "<strong>Giáo viên chuyên sâu</strong>: Đội ngũ giảng viên thông thạo tiếng Hàn và tiếng Việt, giúp học viên tiến bộ nhanh chóng.",
+                        "<strong>Linh hoạt tối đa</strong>: Lớp học trực tiếp tại trung tâm, văn phòng, hoặc trực tuyến qua Zoom, Google Meet, với lịch học từ 7:00 đến 21:00."
+                    ],
+                    "image_alt": "Bản đồ Việt Nam, nơi người Hàn học tiếng Việt để kinh doanh",
+                    "quote": "<strong>Kết quả thực tế</strong>: 95% học viên Hàn Quốc tại Vtalki tự tin sử dụng tiếng Việt trong công việc sau 3-4 tháng học!"
+                },
+                "section3": {
+                    "title": "Tiếng Việt: Lợi Thế Cạnh Tranh Trong Kinh Doanh",
+                    "text1": "Học tiếng Việt mang lại lợi thế lớn cho người Hàn Quốc trong việc xây dựng mối quan hệ kinh doanh tại Việt Nam. Sử dụng tiếng Việt trong giao tiếp giúp:",
+                    "list1": [
+                        "<strong>Tạo dựng niềm tin</strong>: Giao tiếp trực tiếp bằng tiếng Việt thể hiện sự tôn trọng văn hóa và xây dựng mối quan hệ bền vững.",
+                        "<strong>Hiểu thị trường</strong>: Nắm bắt nhu cầu, thói quen tiêu dùng, và xu hướng thị trường Việt Nam.",
+                        "<strong>Quản lý hiệu quả</strong>: Giao tiếp trực tiếp với nhân viên Việt Nam, giảm thiểu hiểu lầm do rào cản ngôn ngữ."
+                    ],
+                    "text2": "Anh Kim Min-soo, một doanh nhân Hàn Quốc tại TP.HCM, chia sẻ: “Sau khóa học tại Vtalki, tôi có thể đàm phán trực tiếp với nhà cung cấp và quản lý đội ngũ nhân viên. Tiếng Việt đã giúp công ty tôi tiết kiệm chi phí và tăng hiệu quả kinh doanh.”",
+                    "image_alt": "Bản đồ Việt Nam, biểu tượng hợp tác Việt - Hàn"
+                },
+                "section4": {
+                    "title": "Vtalki: Chất Lượng Đào Tạo Hàng Đầu",
+                    "text1": "Với hơn <strong>5 năm kinh nghiệm</strong> giảng dạy tiếng Việt cho người nước ngoài, Vtalki là lựa chọn hàng đầu của cộng đồng người Hàn tại Việt Nam. Trung tâm cung cấp các khóa học đa dạng, từ giao tiếp cơ bản đến tiếng Việt thương mại nâng cao, cùng các điểm nổi bật:",
+                    "list1": [
+                        "<strong>Chứng chỉ uy tín</strong>: Học viên nhận chứng chỉ năng lực tiếng Việt, được công nhận trong công việc và học thuật.",
+                        "<strong>Hoạt động thực tế</strong>: Tham gia thực hành tại công ty, chợ, hoặc nhà hàng Việt Nam để áp dụng tiếng Việt.",
+                        "<strong>Hỗ trợ cá nhân hóa</strong>: Tư vấn lộ trình học riêng, đảm bảo đạt mục tiêu nhanh chóng."
+                    ]
+                },
+                "section5": {
+                    "title": "Ưu Đãi Đặc Biệt Trong Tháng Này",
+                    "text1": "Đăng ký ngay để nhận các ưu đãi hấp dẫn từ Vtalki:",
+                    "list1": [
+                        "<strong>Tư vấn lộ trình học miễn phí</strong> với chuyên gia ngôn ngữ.",
+                        "<strong>Tặng bộ tài liệu tiếng Việt thương mại</strong> độc quyền, bao gồm từ vựng và mẫu câu kinh doanh.",
+                        "<strong>Giảm 15% học phí</strong> cho học viên đăng ký trước ngày 31/05/2025."
+                    ],
+                    "register": "Đăng Ký Ngay Để Chinh Phục Thị Trường Việt Nam!"
+                },
+                "footer": {
+                    "text1": "👉 <strong>Hành động ngay hôm nay!</strong> Liên hệ <strong>Trung tâm Vtalki</strong> qua <a href='tel:+84963229475' class='text-blue-600 hover:underline'>hotline 096 322 94 75</a> hoặc <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> để đặt lịch học và bắt đầu hành trình kinh doanh thành công tại Việt Nam.",
+                    "text2": "Vtalki – Đồng hành cùng người Hàn chinh phục tiếng Việt và thị trường Việt Nam!"
+                }
+            }
+        },
+        "nguoi-nuoc-ngoai-hoc-tieng-viet": {
+            "helmet": {
+                "title": "Người Nước Ngoài Học Tiếng Việt Để Khám Phá Văn Hóa Việt Nam | Vtalki",
+                "description": "Người nước ngoài đổ xô học tiếng Việt để hòa nhập văn hóa và nắm cơ hội tại Việt Nam. Vtalki cung cấp khóa học 1 kèm 1, linh hoạt, kết hợp trải nghiệm văn hóa, giảm 20% học phí!",
+                "keywords": "học tiếng Việt, tiếng Việt cho người nước ngoài, trung tâm tiếng Việt Vtalki, học tiếng Việt TP.HCM, văn hóa Việt Nam, tiếng Việt giao tiếp, cơ hội nghề nghiệp Việt Nam",
+                "og_title": "Người Nước Ngoài Học Tiếng Việt Để Khám Phá Văn Hóa Việt Nam | Vtalki",
+                "og_description": "Khóa học tiếng Việt 1 kèm 1 tại Vtalki giúp người nước ngoài giao tiếp tự tin, khám phá văn hóa Việt Nam. Đăng ký ngay để nhận ưu đãi 20% học phí!",
+                "og_image": "/assets/map.png",
+                "og_url": "https://vtalki.com/news/nguoi-nuoc-ngoai-hoc-tieng-viet"
+            },
+            "title": "[HOT] Người Nước Ngoài Đổ Xô Học Tiếng Việt Để Khám Phá Văn Hóa Và Cơ Hội Tại Việt Nam",
+            "published_date": "Ngày đăng: 13/05/2025",
+            "content": {
+                "section1": {
+                    "image_alt": "Bản đồ Việt Nam, điểm đến của người nước ngoài học tiếng Việt",
+                    "title": "Tại Sao Người Nước Ngoài Đam Mê Học Tiếng Việt?",
+                    "text1": "Việt Nam, với nền kinh tế phát triển nhanh và văn hóa phong phú, đang trở thành điểm đến lý tưởng cho người nước ngoài. Theo Tổng cục Du lịch Việt Nam, năm 2024, nước ta đón hơn <strong>18 triệu lượt khách quốc tế</strong>, và nhiều người quyết định ở lại lâu dài để làm việc, kinh doanh, hoặc học tập. Tiếng Việt trở thành cầu nối giúp họ hiểu sâu hơn về con người, phong tục, và lối sống Việt Nam.",
+                    "text2": "Tại <strong>Trung tâm dạy tiếng Việt Vtalki</strong>, lượng học viên quốc tế tăng <strong>45% trong năm 2025</strong>, với học viên từ Mỹ, Úc, Hàn Quốc, Nhật Bản, và châu Âu. “Tôi muốn gọi món phở mà không cần menu tiếng Anh, hay trò chuyện với bà con ở chợ. Tiếng Việt khiến tôi cảm thấy như người địa phương,” chị Emily, một học viên người Mỹ tại TP.HCM, chia sẻ.",
+                    "image_alt2": "Bản đồ TP.HCM, trung tâm học tiếng Việt cho người nước ngoài"
+                },
+                "section2": {
+                    "title": "Vtalki: Khóa Học Tiếng Việt 1 Kèm 1 Chuyên Biệt",
+                    "text1": "Để đáp ứng nhu cầu ngày càng cao, <strong>Vtalki</strong> cung cấp các khóa học tiếng Việt chuyên biệt cho người nước ngoài, với mô hình <strong>1 kèm 1</strong> mang lại hiệu quả tối ưu. Các lớp học được thiết kế linh hoạt, phù hợp với mọi trình độ, và có các đặc điểm nổi bật:",
+                    "list1": [
+                        "<strong>Phương pháp thực tiễn</strong>: Tập trung vào giao tiếp hàng ngày, từ gọi xe, mua sắm, đến trò chuyện với đồng nghiệp. Học viên thực hành qua các tình huống thực tế như đi chợ hoặc tham gia lễ hội.",
+                        "<strong>Giáo viên đa ngôn ngữ</strong>: Đội ngũ giảng viên thông thạo tiếng Anh, Hàn, Nhật, giúp học viên dễ dàng tiếp thu.",
+                        "<strong>Trải nghiệm văn hóa</strong>: Kết hợp hoạt động như học nấu phở, làm bánh chưng, hoặc tham quan làng nghề để hiểu văn hóa Việt Nam.",
+                        "<strong>Linh hoạt tối đa</strong>: Lựa chọn học trực tiếp tại trung tâm, tại nhà, hoặc trực tuyến qua Zoom, Google Meet, với lịch học từ 7:00 đến 21:00."
+                    ],
+                    "image_alt": "Bản đồ Việt Nam, biểu tượng của văn hóa và cơ hội",
+                    "quote": "<strong>Kết quả thực tế</strong>: 92% học viên quốc tế tại Vtalki đạt mục tiêu giao tiếp cơ bản sau 2-3 tháng học!"
+                },
+                "section3": {
+                    "title": "Tiếng Việt: Chìa Khóa Hòa Nhập Và Thành Công",
+                    "text1": "Học tiếng Việt mang lại nhiều lợi ích thiết thực cho người nước ngoài tại Việt Nam:",
+                    "list1": [
+                        "<strong>Hòa nhập cộng đồng</strong>: Giao tiếp bằng tiếng Việt giúp xây dựng mối quan hệ thân thiết với người dân địa phương.",
+                        "<strong>Khám phá văn hóa</strong>: Hiểu tiếng Việt để tham gia các phong tục như Tết Nguyên Đán, lễ Vu Lan, hoặc hoạt động cộng đồng.",
+                        "<strong>Cơ hội nghề nghiệp</strong>: Biết tiếng Việt là lợi thế trong các ngành giáo dục, du lịch, và kinh doanh quốc tế."
+                    ],
+                    "text2": "Anh Hiroshi, một học viên người Nhật, chia sẻ: “Học tiếng Việt giúp tôi tự tin giao tiếp với đối tác và hiểu văn hóa làm việc ở Việt Nam. Tôi cảm thấy thực sự thuộc về nơi này.”",
+                    "image_alt": "Bản đồ Việt Nam, nơi người nước ngoài hòa nhập văn hóa"
+                },
+                "section4": {
+                    "title": "Vtalki: Đồng Hành Cùng Người Nước Ngoài",
+                    "text1": "Với hơn <strong>6 năm kinh nghiệm</strong> giảng dạy tiếng Việt, Vtalki là lựa chọn hàng đầu tại TP.HCM và Hà Nội. Trung tâm cung cấp các khóa học đa dạng, từ giao tiếp cơ bản đến chuyên sâu, như:",
+                    "list1": [
+                        "<strong>Tiếng Việt giao tiếp hàng ngày</strong>: Tập trung vào từ vựng và ngữ pháp cơ bản.",
+                        "<strong>Tiếng Việt công việc</strong>: Kỹ năng giao tiếp chuyên nghiệp, như viết email hoặc đàm phán.",
+                        "<strong>Luyện thi chứng chỉ tiếng Việt</strong>: Chuẩn bị cho kỳ thi năng lực tiếng Việt quốc gia."
+                    ],
+                    "text2": "Học viên hoàn thành khóa học nhận <strong>chứng chỉ uy tín</strong>, giúp chứng minh năng lực ngôn ngữ khi xin việc hoặc học tập."
+                },
+                "section5": {
+                    "title": "Ưu Đãi Đặc Biệt Trong Tháng Này",
+                    "text1": "Đăng ký ngay để nhận ưu đãi hấp dẫn từ Vtalki:",
+                    "list1": [
+                        "<strong>Tư vấn lộ trình học miễn phí</strong> với chuyên gia ngôn ngữ.",
+                        "<strong>Tặng bộ tài liệu học tiếng Việt</strong> độc quyền, bao gồm từ vựng và hướng dẫn văn hóa.",
+                        "<strong>Giảm 20% học phí</strong> cho học viên đăng ký trước ngày 31/05/2025."
+                    ],
+                    "register": "Đăng Ký Ngay Để Khám Phá Tiếng Việt!"
+                },
+                "footer": {
+                    "text1": "👉 <strong>Hành động ngay hôm nay!</strong> Liên hệ <strong>Trung tâm Vtalki</strong> qua <a href='tel:+84963229475' class='text-blue-600 hover:underline'>hotline 096 322 94 75</a> hoặc <a href='https://vtalki.com' class='text-blue-600 hover:underline'>website</a> để đặt lịch học và bắt đầu hành trình hòa nhập tại Việt Nam.",
+                    "text2": "Vtalki – Đồng hành cùng bạn khám phá tiếng Việt và văn hóa Việt Nam!"
+                }
+            }
+        }
+    },
+    "footer": {
+        "logoSection": {
+            "title": "VTalki Center",
+            "description": "Trung tâm Anh - Hàn - Việt VTalki",
+            "email": "Email",
+            "hotline": "Hotline"
+        },
+        "quickLinks": {
+            "title": "Liên kết nhanh",
+            "home": "Trang chủ",
+            "courses": "Khóa học",
+            "contact": "Liên hệ",
+            "register": "Đăng Ký"
+        },
+        "socialSection": {
+            "title": "Theo dõi chúng tôi",
+            "facebook": "Facebook",
+            "youtube": "YouTube",
+            "tiktok": "TikTok",
+            "twitter": "Twitter",
+            "whatsapp": "WhatsApp",
+            "zalo": "Zalo",
+            "talk": "Talk",
+            "messenger": "Messenger",
+            "phone": "Điện thoại"
+        },
+        "mapSection": {
+            "title": "Địa chỉ"
+        },
+        "copyright": "© {{year}} VTalki. All rights reserved."
+    },
+    "coursesVietnamese": {
+        "title": "Khóa học Tiếng Việt",
+        "description": "Khóa học giúp bạn cải thiện kỹ năng {{skill}} một cách hiệu quả.",
+        "learningFormatsTitle": "Hình thức học:",
+        "learningFormats": [
+            "Offline 1:1",
+            "Online 1:1",
+            "Lớp nhóm offline"
+        ],
+        "registerButton": "Đăng ký",
+        "courses": {
+            "communication": "Tiếng Việt giao tiếp",
+            "business": "Tiếng Việt thương mại",
+            "kids": "Tiếng Việt cho trẻ em",
+            "exam": "Tiếng Việt luyện thi"
+        }
+    },
+    "koreanCourse": {
+        "title": "Khóa học Tiếng Hàn",
+        "description": "Khóa học dạy bạn {{skill}} với {{teacher}}.",
+        "learningFormatsTitle": "Hình thức học:",
+        "learningFormats": {
+            "group3_5": "Lớp nhóm 3-5 (lớp giao tiếp)",
+            "group10": "Lớp nhóm 10 (lớp sơ cấp + lớp trung cấp)"
+        },
+        "registerButton": "Đăng ký",
+        "courses": {
+            "communication": "Tiếng Hàn giao tiếp",
+            "beginner": "Tiếng Hàn sơ cấp",
+            "intermediate": "Tiếng Hàn trung cấp"
+        },
+        "teacher": {
+            "native": "giáo viên người Hàn",
+            "bilingual": "giáo viên song ngữ"
+        }
+    },
+    "englishCourse": {
+        "title": "Khóa học Tiếng Anh",
+        "description": "Khóa học giúp bạn cải thiện kỹ năng {{skill}} một cách hiệu quả.",
+        "learningFormatsTitle": "Hình thức học:",
+        "learningFormats": {
+            "online1_1": "Online 1:1",
+            "offline1_1": "Offline 1:1"
+        },
+        "registerButton": "Đăng ký",
+        "courses": {
+            "beginner": "Tiếng Anh nhập môn",
+            "communication": "Tiếng Anh giao tiếp",
+            "business": "Tiếng Anh thương mại",
+            "toeic": "Tiếng Anh ôn thi Toeic"
+        }
+    },
+    "allCourses": {
+        "title": "Danh sách khóa học"
+    },
+    "aboutUs": {
+        "title": "Giới thiệu về VTalki – Trung tâm Dạy tiếng Việt cho Người Nước Ngoài",
+        "seo": {
+            "title": "Giới thiệu VTalki - Trung tâm Dạy tiếng Việt cho Người Nước Ngoài tại TP. HCM",
+            "description": "Khám phá VTalki - trung tâm chuyên dạy tiếng Việt cho người nước ngoài tại TP. HCM với chương trình hiện đại, đội ngũ giáo viên tận tâm.",
+            "keywords": "VTalki, học tiếng Việt, trung tâm tiếng Việt, người nước ngoài, TP. HCM",
+            "ogTitle": "Giới thiệu VTalki - Học tiếng Việt cho Người Nước Ngoài",
+            "ogDescription": "VTalki cung cấp khóa học tiếng Việt chuyên nghiệp, giúp người nước ngoài hiểu văn hóa Việt Nam."
+        },
+        "introduction": {
+            "title": "Giới thiệu",
+            "description": "VTalki là trung tâm chuyên giảng dạy tiếng Việt cho người nước ngoài tại TP. Hồ Chí Minh, được biết đến với chương trình đào tạo bài bản, phương pháp học hiện đại và đội ngũ giảng viên tận tâm. Với phương châm “Hiểu tiếng Việt – Hiểu văn hóa Việt”, VTalki không chỉ giúp học viên sử dụng tiếng Việt thành thạo trong giao tiếp và công việc, mà còn đồng hành cùng học viên trên hành trình khám phá văn hóa, con người và phong tục Việt Nam."
+        },
+        "ourTeam": {
+            "title": "Đội ngũ giảng viên chất lượng",
+            "item1": "Hơn 50 giáo viên giàu kinh nghiệm, am hiểu phương pháp giảng dạy tiếng Việt cho người nước ngoài.",
+            "item2": "Ứng dụng phương pháp học thông qua giao tiếp thực tế, trò chơi và trải nghiệm văn hóa.",
+            "item3": "Luôn tận tâm đồng hành cùng học viên trong suốt quá trình học tập."
+        },
+        "programs": {
+            "title": "Chương trình học linh hoạt",
+            "description": "Phù hợp với nhiều mục tiêu học tập: Tiếng Việt giao tiếp hàng ngày, Tiếng Việt cho người đi làm, doanh nhân, Tiếng Việt học thuật, Lớp cá nhân hoặc nhóm, học trực tiếp hoặc trực tuyến."
+        },
+        "internationalStudents": {
+            "title": "Học viên quốc tế",
+            "item1": "Học viên đến từ Hàn Quốc, Trung Quốc, Mỹ, Nhật, Pháp…",
+            "item2": "Môi trường học tập thân thiện, đa văn hóa",
+            "item3": "Thường xuyên tổ chức workshop cuối tuần, giao lưu, hoạt động thực hành ngoài lớp học"
+        },
+        "contact": {
+            "title": "Thông tin liên hệ",
+            "centerName": "Tên trung tâm: Vietnamese Language Academy – VTalki",
+            "address": "Địa chỉ: 79 Lê Văn Thiêm, P. Tân Phong, Quận 7, TP. Hồ Chí Minh",
+            "hotline": "Hotline: 0903 806 203",
+            "email": "Email: vtalki79@gmail.com",
+            "website": "Website: https://vtalki.com"
+        }
+    },
+    "contacts": {
+        "title": "Liên Hệ Với VTalki",
+        "seo": {
+            "title": "Liên Hệ VTalki - Trung tâm Dạy tiếng Việt cho Người Nước Ngoài",
+            "description": "Liên hệ với VTalki để tìm hiểu về các khóa học tiếng Việt tại TP. HCM. Địa chỉ, hotline, email và bản đồ.",
+            "keywords": "VTalki, liên hệ, học tiếng Việt, trung tâm tiếng Việt, TP. HCM",
+            "ogTitle": "Liên Hệ VTalki - Học tiếng Việt cho Người Nước Ngoài",
+            "ogDescription": "Liên hệ VTalki qua hotline 0903 806 203 hoặc email vtalki79@gmail.com để đăng ký khóa học."
+        },
+        "description": "Liên hệ với VTalki để nhận hỗ trợ về các khóa học tiếng Việt cho người nước ngoài.",
+        "info": {
+            "title": "Thông Tin Liên Hệ",
+            "centerName": "Tên trung tâm: Vietnamese Language Academy – VTalki",
+            "address": "Địa chỉ: 79 Lê Văn Thiêm, P. Tân Phong, Quận 7, TP. Hồ Chí Minh",
+            "hotline": "Hotline: 0903 806 203",
+            "email": "Email: vtalki79@gmail.com",
+            "website": "Website: https://vtalki.com"
+        },
+        "map": {
+            "title": "Vị Trí Trên Bản Đồ"
+        }
+    },
+    "form": {
+        "contact": {
+            "ariaLabel": "Form liên hệ với VTalki",
+            "title": "Liên Hệ Với Chúng Tôi",
+            "fullName": "Họ và Tên",
+            "fullNamePlaceholder": "Nhập họ và tên của bạn",
+            "email": "Email",
+            "emailPlaceholder": "Nhập email của bạn",
+            "phone": "Số Điện Thoại",
+            "phonePlaceholder": "Nhập số điện thoại của bạn",
+            "message": "Tin Nhắn",
+            "messagePlaceholder": "Nhập nội dung tin nhắn của bạn",
+            "submit": "Gửi Liên Hệ",
+            "submitSuccess": "Gửi liên hệ thành công! Cảm ơn bạn.",
+            "submitError": "Có lỗi xảy ra, vui lòng thử lại sau."
+        }
+    }
+}
