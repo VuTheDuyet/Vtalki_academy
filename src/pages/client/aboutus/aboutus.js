@@ -45,7 +45,7 @@ function AboutUs() {
             <h1 className="about-title">{t('aboutUs.title')}</h1>
             {/* Hình ảnh tiêu đề */}
             <div className="header-image">
-                <img src="../assets/slide3.png" alt={t('englishCourse.title')} className="course-header-img" />
+                <img src="../assets/about/b1.png" alt={t('englishCourse.title')} className="course-header-img" />
             </div>
 
 
@@ -72,7 +72,7 @@ function AboutUs() {
             </section>
             {/* Hình ảnh tiêu đề */}
             <div className="header-image">
-                <img src="../assets/slide3.png" alt={t('englishCourse.title')} className="course-header-img" />
+                <img src="../assets/about/b2.png" alt={t('englishCourse.title')} className="course-header-img" />
             </div>
 
             {/* Học viên quốc tế */}

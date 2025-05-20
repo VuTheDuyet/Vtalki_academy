@@ -9,6 +9,12 @@ const newsSlugs = [
     'nguoi-han-hoc-tieng-viet-kinh-doanh',
     'vtalki-ra-mat-app-hoc-tieng-han-viet',
 ];
+const images = [
+    '/assets/new/n1.webp',
+    '/assets/new/n2.jpg',
+    '/assets/new/n3.webp',
+    '/assets/new/n4.webp',
+];
 
 const NewsSection = () => {
     const { t } = useTranslation();
@@ -16,11 +22,11 @@ const NewsSection = () => {
     return (
         <section className="news-section">
             <div className="news-list">
-                {newsSlugs.map((slug) => (
+                {newsSlugs.map((slug, index) => (
                     <Link className="news-link" to={`/news/${slug}`} key={slug}>
                         <div className="news-item">
                             <img
-                                src="/assets/map.png"
+                                src={images[index]} // Use corresponding image from images array
                                 alt={t(`news.${slug}.title`)}
                                 className="news-image"
                                 loading="lazy"

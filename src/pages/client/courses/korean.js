@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Korean.css'; // File CSS riêng
 import { useTranslation } from 'react-i18next';
+import ConsultForm from '../../../components/ConsultForm';
+
 
 function KoreanCourse() {
     const { t } = useTranslation();
@@ -10,7 +12,10 @@ function KoreanCourse() {
         { name: t('koreanCourse.courses.beginner'), id: 'beginner', teacher: t('koreanCourse.teacher.bilingual') },
         { name: t('koreanCourse.courses.intermediate'), id: 'intermediate', teacher: t('koreanCourse.teacher.bilingual') },
     ];
+    const [showConsultForm, setShowConsultForm] = useState(false);
 
+    const handleOpenForm = () => setShowConsultForm(true);
+    const handleCloseForm = () => setShowConsultForm(false);
     const learningFormats = [
         t('koreanCourse.learningFormats.group3_5'),
         t('koreanCourse.learningFormats.group10'),
@@ -42,12 +47,23 @@ function KoreanCourse() {
                                 ))}
                             </ul>
                         </div>
-                        <button className="register-button">{t('koreanCourse.registerButton')}</button>
+                        <button className="register-button" onClick={handleOpenForm}>
+                            {t('coursesVietnamese.registerButton')}
+                        </button>
                     </div>
                 ))}
             </div>
 
-
+            {/* Popup Consult Form */}
+            {showConsultForm && (
+                <div className="consult-form-popup">
+                    <div className="popup-overlay" onClick={handleCloseForm}></div>
+                    <div className="popup-content">
+                        <button className="close-button" onClick={handleCloseForm}>×</button>
+                        <ConsultForm />
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

@@ -30,7 +30,7 @@ export default function NewsDetails1() {
                     </h1>
                     <p className="text-gray-600 mb-6">{t(`news.${slug}.published_date`)}</p>
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n1.webp"
                         alt="Công nhân Việt Nam làm việc tại Hàn Quốc"
                         className="w-full h-auto rounded-lg mb-6"
                     />
@@ -40,7 +40,7 @@ export default function NewsDetails1() {
                     <h2>{t(`news.${slug}.content.section1.title`)}</h2>
                     <p dangerouslySetInnerHTML={renderHTML(t(`news.${slug}.content.section1.text1`))} />
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n13.webp"
                         alt="Môi trường làm việc hiện đại tại Hàn Quốc"
                         className="w-full h-auto rounded-lg my-6"
                     />
@@ -59,7 +59,7 @@ export default function NewsDetails1() {
                         ))}
                     </ul>
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n12.jpg"
                         alt="Lớp học tiếng Hàn 1 kèm 1 tại Vtalki"
                         className="w-full h-auto rounded-lg my-6"
                     />
@@ -79,7 +79,7 @@ export default function NewsDetails1() {
                     <h2>{t(`news.${slug}.content.section3.title`)}</h2>
                     <p dangerouslySetInnerHTML={renderHTML(t(`news.${slug}.content.section3.text1`))} />
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n13.webp"
                         alt="Chứng chỉ TOPIK – tấm vé đến Hàn Quốc"
                         className="w-full h-auto rounded-lg my-6"
                     />

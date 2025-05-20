@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Vietnamese.css'; // File CSS riêng
 import { useTranslation } from 'react-i18next';
+import ConsultForm from '../../../components/ConsultForm';
+
 
 function CoursesVietnamese() {
     const { t } = useTranslation();
@@ -11,6 +13,11 @@ function CoursesVietnamese() {
         { name: t('coursesVietnamese.courses.kids'), id: 'kids' },
         { name: t('coursesVietnamese.courses.exam'), id: 'exam' },
     ];
+
+    const [showConsultForm, setShowConsultForm] = useState(false);
+
+    const handleOpenForm = () => setShowConsultForm(true);
+    const handleCloseForm = () => setShowConsultForm(false);
 
     return (
         <div className="courses-container">
@@ -40,12 +47,23 @@ function CoursesVietnamese() {
                                 )}
                             </ul>
                         </div>
-                        <button className="register-button">
+                        <button className="register-button" onClick={handleOpenForm}>
                             {t('coursesVietnamese.registerButton')}
                         </button>
                     </div>
                 ))}
             </div>
+
+            {/* Popup Consult Form */}
+            {showConsultForm && (
+                <div className="consult-form-popup">
+                    <div className="popup-overlay" onClick={handleCloseForm}></div>
+                    <div className="popup-content">
+                        <button className="close-button" onClick={handleCloseForm}>×</button>
+                        <ConsultForm />
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

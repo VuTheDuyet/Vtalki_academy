@@ -55,22 +55,6 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Books
-          <div
-            className="nav-item has-dropdown"
-            onMouseEnter={() => setHoveredMenu('books')}
-            onMouseLeave={() => setHoveredMenu(null)}
-          >
-            <Link to="/books" onClick={handleNavClick}>{t("our_books")}</Link>
-            <div className={`dropdown-menu ${hoveredMenu === 'books' ? 'show' : ''}`}>
-              <Link to="/books/all" onClick={handleNavClick}>{t("all_books")}</Link>
-              <Link to="/books/recommended" onClick={handleNavClick}>{t("featured_books")}</Link>
-              <Link to="/books/vietnamese" onClick={handleNavClick}>{t("vietnamese_books")}</Link>
-              <Link to="/books/korean" onClick={handleNavClick}>{t("korean_books")}</Link>
-              <Link to="/books/english" onClick={handleNavClick}>{t("english_books")}</Link>
-            </div>
-          </div> */}
-
           {/* Teacher Training */}
           <div
             className="nav-item has-dropdown"
@@ -80,9 +64,6 @@ export default function Header() {
             <Link to="/teacher-training" onClick={handleNavClick}>{t("teacher_training")}</Link>
             <div className={`dropdown-menu ${hoveredMenu === 'teachers' ? 'show' : ''}`}>
               <Link to="/teacher-training/programs" onClick={handleNavClick}>{t("all_teachers")}</Link>
-              {/* <Link to="/teacher-training/korean" onClick={handleNavClick}>{t("korean_teachers")}</Link>
-              <Link to="/teacher-training/vietnamese" onClick={handleNavClick}>{t("vietnamese_teachers")}</Link>
-              <Link to="/teacher-training/english" onClick={handleNavClick}>{t("english_teachers")}</Link> */}
             </div>
           </div>
 
@@ -94,9 +75,7 @@ export default function Header() {
           >
             <Link to="/about" onClick={handleNavClick}>{t("about")}</Link>
             <div className={`dropdown-menu ${hoveredMenu === 'about' ? 'show' : ''}`}>
-              <Link to="/about/overview" onClick={handleNavClick}>{t("overview")}</Link>
-              {/* <Link to="/about/team" onClick={handleNavClick}>{t("team")}</Link> */}
-              {/* <Link to="/about/mission" onClick={handleNavClick}>{t("mission")}</Link> */}
+              <Link to="/about-overview" onClick={handleNavClick}>{t("overview")}</Link>
             </div>
           </div>
 
@@ -108,11 +87,7 @@ export default function Header() {
           >
             <Link to="/news" onClick={handleNavClick}>{t("new")}</Link>
             <div className={`dropdown-menu ${hoveredMenu === 'news' ? 'show' : ''}`}>
-              {/* <Link to="/news/events" onClick={handleNavClick}>{t("events")}</Link> */}
-              {/* <Link to="/blog/tips" onClick={handleNavClick}>{t("study_tips")}</Link> */}
               <Link to="/news/blogs" onClick={handleNavClick}>{t("blog")}</Link>
-              {/* <Link to="/careers" onClick={handleNavClick}>{t("recruitment")}</Link> */}
-              {/* <Link to="/news/announcements" onClick={handleNavClick}>{t("announcements")}</Link> */}
             </div>
           </div>
 
@@ -126,22 +101,8 @@ export default function Header() {
             <div className={`dropdown-menu ${hoveredMenu === 'contact' ? 'show' : ''}`}>
               <Link to="/contact/form" onClick={handleNavClick}>{t("contact_form")}</Link>
               <Link to="/contact/info" onClick={handleNavClick}>{t("contact_info")}</Link>
-              {/* <Link to="/contact/social" onClick={handleNavClick}>{t("contact_social")}</Link> */}
             </div>
           </div>
-
-          {/* Login */}
-          {/* <div
-            className="nav-item has-dropdown"
-            onMouseEnter={() => setHoveredMenu('auth')}
-            onMouseLeave={() => setHoveredMenu(null)}
-          >
-            <Link to="/login" onClick={handleNavClick}>{t("login")}</Link>
-            <div className={`dropdown-menu ${hoveredMenu === 'auth' ? 'show' : ''}`}>
-              <Link to="/register" onClick={handleNavClick}>{t("register")}</Link>
-            </div>
-          </div> */}
-          <FloatingButtons />
 
           {/* Language Selector */}
           <div className="lang-select-wrapper">
@@ -158,8 +119,10 @@ export default function Header() {
             </select>
           </div>
         </nav>
+
+        {/* Di chuyển FloatingButtons ra ngoài nav-links */}
+        <FloatingButtons />
       </div>
     </header>
   );
 }
-

@@ -30,7 +30,7 @@ export default function NewsDetails2() {
                     </h1>
                     <p className="text-gray-600 mb-6">{t(`news.${slug}.published_date`)}</p>
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n22.jpg"
                         alt={t(`news.${slug}.content.section1.image_alt`)}
                         className="w-full h-auto rounded-lg mb-6"
                     />
@@ -41,7 +41,7 @@ export default function NewsDetails2() {
                     <p dangerouslySetInnerHTML={renderHTML(t(`news.${slug}.content.section1.text1`))} />
                     <p dangerouslySetInnerHTML={renderHTML(t(`news.${slug}.content.section1.text2`))} />
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n21.jpg"
                         alt={t(`news.${slug}.content.section1.image_alt2`)}
                         className="w-full h-auto rounded-lg my-6"
                     />
@@ -54,7 +54,7 @@ export default function NewsDetails2() {
                         ))}
                     </ul>
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n22.jpg"
                         alt={t(`news.${slug}.content.section2.image_alt`)}
                         className="w-full h-auto rounded-lg my-6"
                     />
@@ -66,7 +66,7 @@ export default function NewsDetails2() {
                     <p dangerouslySetInnerHTML={renderHTML(t(`news.${slug}.content.section3.text1`))} />
                     <p dangerouslySetInnerHTML={renderHTML(t(`news.${slug}.content.section3.text2`))} />
                     <img
-                        src="/assets/map.png"
+                        src="/assets/new/n23.jpg"
                         alt={t(`news.${slug}.content.section3.image_alt`)}
                         className="w-full h-auto rounded-lg my-6"
                     />

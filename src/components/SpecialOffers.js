@@ -8,9 +8,9 @@ function SpecialOffers() {
 
     // List of image paths for each offer
     const offerImages = [
-        '/assets/map.png', // Image for "Free Consultation & Trial Lesson"
-        '/assets/map.png',    // Image for "Exclusive Course Materials"
-        '/assets/map.png',     // Image for "Invite Friends, Get 20% Off"
+        '/assets/SpecialOffers/s1.png', // Image for "Free Consultation & Trial Lesson"
+        '/assets/SpecialOffers/s2.png',    // Image for "Exclusive Course Materials"
+        '/assets/SpecialOffers/s3.png',     // Image for "Invite Friends, Get 20% Off"
     ];
 
     return (

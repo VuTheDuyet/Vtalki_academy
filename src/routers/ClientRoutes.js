@@ -19,7 +19,8 @@ import News from '../pages/client/news/News.js';
 import Contact from '../pages/client/contact/Contact.js';
 import FormContact from '../pages/client/contact/Formcontact.js';
 import Data from '../context/Data.js';
-
+import Loading from '../components/Loading.js';
+import ConsultFormdrive from '../components/ConsultFormdrive.js';
 function ClientRoutes() {
   return (
     <Routes>
@@ -73,7 +74,9 @@ function ClientRoutes() {
         {/* <Route path="contact/social" element={<Contact />} /> */}
 
         <Route path="login" element={<Contact />} />
-        <Route path="register" element={<Contact />} />
+        <Route path="loading" element={<Loading />} />
+        <Route path="fdrive" element={<ConsultFormdrive />} />
+
       </Route>
     </Routes>
   );

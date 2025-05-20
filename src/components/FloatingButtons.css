@@ -4,11 +4,14 @@
 .floating-buttons {
   position: fixed;
   right: 20px;
-  bottom: 20px;
-  z-index: 9999; /* Tăng z-index để đè lên tất cả (cao hơn main với z-index: 1000) */
+  top: 50%; /* Đặt ở giữa chiều dọc */
+  transform: translateY(-50%); /* Căn giữa theo trục Y */
+  z-index: 10000; /* Đảm bảo vượt qua header (z-index: 9999) */
   display: flex;
   flex-direction: column;
   gap: 12px;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 /* Các icon chung */
@@ -65,9 +68,9 @@
 @media (max-width: 768px) {
   .floating-buttons {
     right: 15px;
-    bottom: 15px;
+    top: 50%; /* Giữ căn giữa chiều dọc */
+    transform: translateY(-50%);
     gap: 10px;
-    /* Đảm bảo không bị ẩn */
     display: flex !important;
     visibility: visible !important;
     opacity: 1 !important;
@@ -82,9 +85,9 @@
 @media (max-width: 480px) {
   .floating-buttons {
     right: 10px;
-    bottom: 10px;
+    top: 50%; /* Giữ căn giữa chiều dọc */
+    transform: translateY(-50%);
     gap: 8px;
-    /* Đảm bảo không bị ẩn */
     display: flex !important;
     visibility: visible !important;
     opacity: 1 !important;
@@ -96,12 +99,15 @@
   }
 }
 
-/* Đảm bảo không bị ẩn trên các thiết bị mobile nhỏ hơn */
 @media (max-width: 360px) {
   .floating-buttons {
     right: 8px;
-    bottom: 8px;
+    top: 50%; /* Giữ căn giữa chiều dọc */
+    transform: translateY(-50%);
     gap: 6px;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   .floating-buttons img {

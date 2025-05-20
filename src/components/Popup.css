@@ -4,24 +4,47 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 999;
-  }
-  
-  .popup-content {
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung quá dài */
+    padding: 20px; /* Thêm padding cho điện thoại */
+}
+
+.popup-content {
     background: white;
     padding: 30px;
     border-radius: 10px;
-    max-width: 400px;
     text-align: center;
     position: relative;
     font-family: 'Paytone One', sans-serif;
-  }
-  
-  .close-btn {
+    max-width: 90%; /* Giới hạn chiều rộng tối đa là 90% để phù hợp với màn hình nhỏ */
+    width: 700px; /* Chiều rộng mặc định cho máy tính */
+    margin: 0 auto; /* Canh giữa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ để nổi bật */
+}
+
+@media (max-width: 768px) {
+    .popup-content {
+        width: 100%; /* Trên điện thoại, dùng 100% chiều rộng */
+        padding: 20px; /* Giảm padding trên màn hình nhỏ */
+       margin-top: 50px;
+        max-height: 90vh; /* Giới hạn chiều cao tối đa để tránh tràn */
+        overflow-y: auto; /* Cho phép cuộn nếu form dài */
+    }
+
+    .popup-content h2 {
+        font-size: 1.5rem; /* Giảm kích thước tiêu đề */
+    }
+
+    .popup-content p {
+        font-size: 1rem; /* Giảm kích thước đoạn văn */
+    }
+}
+
+.close-btn {
     position: absolute;
     top: 10px;
     right: 15px;
@@ -29,15 +52,34 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
-  }
-  
-  .popup-cta {
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: #0077cc;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .close-btn {
+        font-size: 20px; /* Giảm kích thước nút đóng trên điện thoại */
+        top: 8px;
+        right: 10px;
+    }
+}
+
+/* Tùy chỉnh cho ConsultForm bên trong popup */
+.popup-content .consult-section {
+    padding: 0; /* Loại bỏ padding mặc định của ConsultForm */
+}
+
+.popup-content .consult-form-wrapper {
+    margin: 0; /* Loại bỏ margin mặc định */
+}
+
+.popup-content .consult-form input,
+.popup-content .consult-form textarea {
+    width: 100%; /* Đảm bảo input đầy đủ chiều rộng */
+    margin-bottom: 10px; /* Khoảng cách giữa các input */
+}
+
+.popup-content .consult-form button {
+    width: 100%; /* Nút submit đầy đủ chiều rộng */
+    padding: 10px;
+    font-size: 1rem;
+}

@@ -35,7 +35,7 @@
   }
   .offer-image {
     width: 100%;
-    height: 150px; /* Fixed height for consistency */
+    height: 450px; /* Fixed height for consistency */
     overflow: hidden;
     border-radius: 8px;
     margin-bottom: 15px;

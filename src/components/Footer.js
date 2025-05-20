@@ -34,63 +34,62 @@ export default function Footer() {
             <li><a href="/login">{t('footer.quickLinks.register')}</a></li>
           </ul>
         </div>
-
         {/* Mạng xã hội */}
         <div className="footer-section">
           <h4>{t('footer.socialSection.title')}</h4>
           <div className="social-icons">
             {/* Facebook */}
             <div className="icon facebook">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.facebook')}>
+              <a href="https://www.facebook.com/profile.php?id=61574526651721" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.facebook')}>
                 <img src="/assets/facebook.png" alt={t('footer.socialSection.facebook')} className="social-image" />
               </a>
               <span className="tooltip">{t('footer.socialSection.facebook')}</span>
             </div>
             {/* YouTube */}
-            <div className="icon youtube">
-              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.youtube')}>
-                <img src="/assets/youtube.png" alt={t('footer.socialSection.youtube')} className="social-image" />
-              </a>
-              <span className="tooltip">{t('footer.socialSection.youtube')}</span>
-            </div>
-            {/* TikTok */}
-            <div className="icon tiktok">
-              <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.tiktok')}>
-                <img src="/assets/tiktok.png" alt={t('footer.socialSection.tiktok')} className="social-image" />
-              </a>
-              <span className="tooltip">{t('footer.socialSection.tiktok')}</span>
-            </div>
+            {/* <div className="icon youtube">
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.youtube')}>
+                            <img src="/assets/youtube.png" alt={t('footer.socialSection.youtube')} className="social-image" />
+                        </a>
+                        <span className="tooltip">{t('footer.socialSection.youtube')}</span>
+                    </div> */}
+            {/* TikTok
+                    <div className="icon tiktok">
+                        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.tiktok')}>
+                            <img src="/assets/tiktok.png" alt={t('footer.socialSection.tiktok')} className="social-image" />
+                        </a>
+                        <span className="tooltip">{t('footer.socialSection.tiktok')}</span>
+                    </div> */}
             {/* Twitter */}
-            <div className="icon twitter">
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.twitter')}>
-                <img src="/assets/twitter.png" alt={t('footer.socialSection.twitter')} className="social-image" />
-              </a>
-              <span className="tooltip">{t('footer.socialSection.twitter')}</span>
-            </div>
+            {/* <div className="icon twitter">
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.twitter')}>
+                            <img src="/assets/twitter.png" alt={t('footer.socialSection.twitter')} className="social-image" />
+                        </a>
+                        <span className="tooltip">{t('footer.socialSection.twitter')}</span>
+                    </div> */}
             {/* WhatsApp */}
-            <div className="icon whatsapp">
-              <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.whatsapp')}>
-                <img src="/assets/whatsapp.png" alt={t('footer.socialSection.whatsapp')} className="social-image" />
-              </a>
-              <span className="tooltip">{t('footer.socialSection.whatsapp')}</span>
-            </div>
+            {/* <div className="icon whatsapp">
+                        <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.whatsapp')}>
+                            <img src="/assets/whatsapp.png" alt={t('footer.socialSection.whatsapp')} className="social-image" />
+                        </a>
+                        <span className="tooltip">{t('footer.socialSection.whatsapp')}</span>
+                    </div> */}
             {/* Zalo */}
             <div className="icon zalo">
-              <a href="https://zalo.me" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.zalo')}>
+              <a href="https://zalo.me/0903806203" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.zalo')}>
                 <img src="/assets/zalo.png" alt={t('footer.socialSection.zalo')} className="social-image" />
               </a>
               <span className="tooltip">{t('footer.socialSection.zalo')}</span>
             </div>
             {/* KakaoTalk */}
             <div className="icon talk">
-              <a href="https://www.kakaotalk.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.kakaotalk')}>
+              <a href="https://open.kakao.com/o/sNmcJDfg" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.kakaotalk')}>
                 <img src="/assets/kakaotalk.png" alt={t('footer.socialSection.kakaotalk')} className="social-image" />
               </a>
               <span className="tooltip">{t('footer.socialSection.kakaotalk')}</span>
             </div>
             {/* Messenger */}
             <div className="icon messenger">
-              <a href="https://www.messenger.com" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.messenger')}>
+              <a href="https://www.facebook.com/messages/t/599658926564607" target="_blank" rel="noopener noreferrer" aria-label={t('footer.socialSection.messenger')}>
                 <img src="/assets/messenger.png" alt={t('footer.socialSection.messenger')} className="social-image" />
               </a>
               <span className="tooltip">{t('footer.socialSection.messenger')}</span>
